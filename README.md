@@ -7,7 +7,7 @@ A Claude Code skill that generates **5 YouTube episode title candidates** for th
 | Path | What it is |
 |------|-----------|
 | `SKILL.md` | The skill — voice rules, 6 title angles, output format |
-| `doom_debates_titles.json` | Pattern library: all 145 published Doom Debates episode titles (video ID, title, date) |
+| `doom_debates_titles.json` | Pattern library: all 228 published Doom Debates episode titles (video ID, title, date), through 2026-08-06 |
 
 ## Install as a Claude Code skill
 
