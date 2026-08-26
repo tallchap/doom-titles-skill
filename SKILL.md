@@ -1,9 +1,11 @@
 ---
 name: doom-titles
-version: 1.0.0
+version: 1.2.0
 description: |
   Generate 5 YouTube episode title candidates for the Doom Debates podcast.
   Reads existing episode titles for pattern matching and applies Liron's voice.
+  Self-learning: refreshes the title corpus from YouTube on every run, logs its
+  candidates to a ledger, and distills lessons when published titles differ.
   Use when asked to "title this episode", "doom titles for", "generate titles",
   "YouTube title for Doom Debates", or "name this episode".
 ---
@@ -27,10 +29,53 @@ The description can include any combination of:
 
 ---
 
+## Step 0: Learning Refresh (every invocation, before anything else)
+
+This is the skill's feedback loop: it checks whether episodes it previously titled
+have since been published, and learns from what the human actually chose.
+
+1. Run `python3 ~/.claude/skills/doom-titles/scripts/refresh_titles.py`. It pulls
+   the newest Doom Debates uploads into `~/Desktop/ClaudeCode/doom_debates_titles.json`
+   (dedupes by video ID, catches retitles, tags each entry `episode`/`clip`/`short`
+   by duration) and prints the added/changed entries as JSON.
+   **If the script fails (no network, missing key), skip this step silently — the
+   refresh must never block title generation.**
+2. Read `references/title-ledger.md`. For each `pending` row, judge whether any
+   corpus entry of `type: "episode"` matches that episode — fuzzy match on guest
+   name, topic, and date proximity (published date ≥ logged date). A `retitled`
+   change on an already-resolved row's video means the human revised again: update
+   that row's Final title and re-derive the lesson.
+3. For each match: fill in Video ID and Final published title, flip Status to
+   `resolved`, and write a one-line **Lesson**:
+   - If the final title ≠ the logged publish pick, state concretely what the
+     generation should have done differently (which rule was missed, or what new
+     pattern the human applied).
+   - If they match (modulo trivial punctuation), write `publish pick matched —
+     pattern confirmed`.
+4. For each newly resolved row where the pick differed, append a numbered case
+   study to `references/case-studies.md` in its existing format (first candidate,
+   published title, lessons). If the lesson is genuinely new — not already covered
+   by a Selection Pass checklist item or a NEVER rule — also add or strengthen the
+   matching rule in Step 3.5 or the NEVER list. The skill is expected to edit its
+   own files here; do it without asking.
+5. Do NOT narrate this bookkeeping in your output beyond one short line when
+   something was learned (e.g. "Resolved 1 pending title; lesson added.").
+
+---
+
 ## Step 1: Load Existing Titles
 
-Read `~/Desktop/Claude Code/doom_debates_titles.json` to see every Doom Debates
-episode title ever published. This is your pattern library.
+Read `~/Desktop/ClaudeCode/doom_debates_titles.json` (just refreshed by Step 0) to
+see every Doom Debates title ever published. This is your pattern library.
+**Pattern-match only on entries with `type: "episode"`** — the corpus also contains
+`short` and `clip` entries, which follow a different (compressed) title style; ignore
+them here. Note the corpus may now contain the just-published title of a pending
+ledger episode — that's the Step 0 resolution signal, not leakage.
+
+Also read `references/case-studies.md` (in this skill's directory): six real episodes
+where the first candidate differed from the human-published title, each annotated with
+the lesson. These are ground truth for how Liron/Ori actually select — the Selection
+Pass in Step 3.5 is built from them.
 
 Before generating, analyze the titles and identify:
 - How guests are named (e.g., "ft." vs "with" vs just the name)
@@ -45,6 +90,26 @@ Before generating, analyze the titles and identify:
 **Returning guest:** If the guest has appeared on Doom Debates before — and *especially* if a prior episode was a top performer — that rematch is the biggest available hook. One of your 5 candidates MUST use the `[Name] Returns to DEBATE: …` structure, and its rationale should call out the prior episode.
 
 Do NOT output this analysis. Use it silently to calibrate your generation.
+
+---
+
+## Step 1.5: Classify the Episode Type
+
+The winning title *shape* usually tracks the episode type. Classify before
+generating. The matching shape is a **strong suggestion based on successful final
+titles in the past** — not a rule. Deviate when a specific stronger hook earns it;
+if you deviate, the rationale should say why.
+
+| Episode type | Published-title shape |
+|---|---|
+| **Guest debate** | `[Full org + exact role] [caps news verb / concrete number] — Debate with [Name]` (e.g. `Google DeepMind AI Safety Researcher Who Just RESIGNED Says P(Doom) is 25% — Debate with Alex Turner`) |
+| **News livestream / roundup** | Comma-separated headline triptych: 2–3 stories, one clause each, named people, ≤1 caps word per clause (e.g. `AI Is Becoming A VIRUS, Leopold's Fund CRASH, Gary Marcus's Predictions Didn't Age Well`). NEVER a single-story title; no date/`DD Live News` branding. |
+| **Special report / commentary on a news moment** | `Special Report: [accurate description with exact names/roles]` |
+| **Contrarian insider** | `[Former Role at Canonical Org]: [flat declaration of their thesis]` — colon-led credential, then the bomb; no guest tag (e.g. `Former Singularity Institute President: Rationalists Are DOOMING the World`) |
+| **Meta / community episode** | Format label + parallel triplet ending in a viewer appeal (`…and Why We Need YOU`) |
+| **Street interviews / vox pop** | Participial channel verb: `Debating [group] About [stakes]` — usually beats first-person `I Asked…` |
+| **Live event** | Content hook first, event label second: `[Hook question]? Live Debate at [Event]` |
+| **Archival crosspost / retrospective** | First-person re-evaluation of the old claim from today's vantage: `What I Said About [X] in [year] Is Now [today's read]` or `…— Did It Age Well?`. Understated dread beats "Predicted It!" triumph; drop external host-show branding (no recognition value) |
 
 ---
 
@@ -63,7 +128,7 @@ You are writing in Liron Shapira's voice. These rules are non-negotiable.
 2. **No hashtags.** Ever.
 3. **No emoji** in titles.
 4. **Questions as weapons.** Rhetorical questions that expose contradictions or force the viewer to click.
-5. **One-word caps emphasis is on-brand and encouraged.** `DEBATE`, `SOLVED?!`, `THREAT`, `TERRIFY`, `BAN`, `TINY` — capitalize at most one or two words for punch; never the whole title.
+5. **One-word caps emphasis is on-brand and encouraged.** `DEBATE`, `SOLVED?!`, `THREAT`, `TERRIFY`, `BAN`, `TINY` — capitalize at most one or two words for punch; never the whole title. The strongest version is a **caps news verb anchored with "Just"**: `Just RESIGNED`, `Just ATTACKED Them` — the news event, not narrative detail.
 6. **Bayesian vocab is in-crowd language — use sparingly.** "P(doom)", "ASI", "update", "prior" belong in at most 1–2 of the 5 candidates. At least 2 candidates must be fully jargon-free; the broad-audience framing usually wins.
 7. **Flat declarations.** State something controversial as though it's settled.
 8. **The Reframe.** Take a common framing and show it leads somewhere unexpected.
@@ -79,6 +144,9 @@ You are writing in Liron Shapira's voice. These rules are non-negotiable.
 - Uses clickbait patterns that don't deliver ("You Won't BELIEVE...")
 - ALL CAPS for the whole title (one-word caps for emphasis is fine and on-brand)
 - Generic framing that could apply to any podcast ("Expert Discusses AI")
+- Overclaims beyond what the episode defends ("Did X Just Threaten Y?" when the video shows a shitpost — describe accurately; get spice from styling like `SH*TPOST`, not accusation)
+- Leads with the channel name ("Doom Debates Live @…") or centers internal personalities ("Producer Ori") a browsing viewer doesn't know
+- Truncates org names for edge ("Ex-DeepMind") — full canonical names ("Google DeepMind") win search and recognition
 
 ---
 
@@ -95,7 +163,52 @@ Generate exactly 5 title candidates. Each must use a **different angle**. Pick 5
 
 If the guest is a returning guest, one of the 5 must additionally fold in the `[Name] Returns to DEBATE: …` structure (it can ride on top of any angle — e.g. returning-guest + binary-stakes).
 
-Aim for 40-80 characters per title (a strong title can run longer). Shorter is usually better.
+Aim for 45-100 characters per title. Shorter is punchier, but published titles run
+long when every word earns its place (the Alex Turner title is exactly 100 chars);
+never pad, never exceed 100.
+
+---
+
+## Step 3.5: Selection Pass — Prune & Tailor
+
+The 5 raw candidates are drafts. Before output, rewrite and re-rank them against
+this checklist, distilled from the case studies (`references/case-studies.md`).
+Candidate #1 after this pass is the **publish pick** — the title you predict
+Liron/Ori would actually publish.
+
+1. **Shape match** — does #1 follow the Step 1.5 shape for this episode type? The
+   shape is a strong suggestion drawn from successful final titles in the past, not
+   a mandate — a deviation is fine if a specific stronger hook earns it and the
+   rationale says why. (E.g. first-person "I Asked…" framing usually loses to
+   "Debating [group]…" but can work when the personal stunt IS the story.)
+2. **Format label** — does the title say what the episode IS (`Special Report:`,
+   `— Debate with [Name]`, `Live Debate at [Event]`, `State of the Show`)? The hook
+   rides on top of the label, never replaces it. The guest tag may be plain
+   `— [Name]` when the title itself already states the disagreement (Eli Goldfine
+   case study #8).
+2b. **Personal-stakes clash** — if the guest directly challenges Liron's own
+   position, that clash is a top-tier hook: "This 14-Year-Old Thinks My P(Doom) Is
+   Too High". First-person "My" as *stakes* is a house move; first-person *stunt*
+   framing ("I Asked…") still usually loses. Cut hype nouns ("Prodigy") — the bare
+   surprising fact carries it.
+3. **Full entity names + exact roles** — canonical org names, precise job titles;
+   drop small orgs with no name recognition. Name the org **as it was called when
+   the guest held the role** (Michael Vassar led the *Singularity Institute*, not
+   MIRI). A strong enough role descriptor can *replace* the `— [Name]` guest tag
+   entirely when the role has more recognition value than the name (case study #9).
+4. **Concrete number** — if the episode contains a hard number (a P(Doom), a
+   percentage, a dollar figure), it beats any quote-pull. Use it.
+5. **No overclaim** — every claim in the title is one the episode fully defends.
+6. **Caps news verb + "Just"** where there's news (`Just RESIGNED`, `Just ATTACKED`);
+   cut narrative detail ("secretly", "for MONTHS", "while engineers slept").
+7. **Second clause = editorial take** — after the em dash or comma, give Liron's
+   read on why it matters ("…Should Be A Loud Warning Shot"), not more plot.
+8. **Direct-address YOU** — for community/live/audience episodes, address the
+   viewer in caps ("Why We Need YOU", "Where Do YOU Get Off the Doom Train?").
+9. **Triptych check** — multi-topic livestream? Then #1 MUST be the comma-separated
+   multi-headline form, not a single story.
+10. **Prune violations** — any candidate that hits a NEVER rule gets rewritten or
+    replaced before output, not merely ranked lower.
 
 ---
 
@@ -104,7 +217,7 @@ Aim for 40-80 characters per title (a strong title can run longer). Shorter is u
 Output exactly this format:
 
 ```
-1. [Title]
+1. [Title]  ← publish pick
    ([1-line rationale explaining the angle])
 
 2. [Title]
@@ -120,10 +233,47 @@ Output exactly this format:
    ([1-line rationale])
 ```
 
+Candidate #1 is the publish pick from the Step 3.5 Selection Pass — the title you
+predict would actually get published, not just the flashiest hook.
+
 Do NOT explain the methodology. Do NOT add preamble. Just output the 5 titles.
 If the user wants revisions, iterate on specific titles they flag.
 
 ---
+
+## Step 4.5: Log to Ledger
+
+Immediately after your FIRST candidate output for an episode, append one row to
+`references/title-ledger.md`:
+
+- **Logged**: today's date
+- **Episode / transcript**: guest/topic identifier, plus the transcript path if one
+  was provided
+- **Publish pick**: candidate #1 verbatim, exactly as first output
+- **Other candidates**: candidates 2–5, `·`-separated
+- **Video ID / Final published title / Lesson**: leave blank
+- **Status**: `pending`
+
+That's it — one append, one time. Do NOT update the row during later iterations in
+the session; the whole point is to preserve the skill's *first instinct* so Step 0
+can compare it against what the human ultimately published. If a row already exists
+for this episode, don't log again.
+
+---
+
+## Step 4.6: NO checkpoint picker — ever
+
+Do NOT end the run with an AskUserQuestion popup. Do NOT ask "which one do you want?"
+Output the 5 titles as plain markdown and stop. This skill delivers information; the
+human picks on their own time.
+
+This applies to the initial ranked output AND to every revision round. If Ori asks a
+follow-up, supplies his own seed title, or requests variants — show full rewritten
+drafts inline, all options visible at once, zero popups, zero checkpoints.
+
+If Ori states a pick or supplies his own title in-session, append `· [session pick:
+<title>]` to that episode's "Other candidates" cell in the ledger. Never touch the
+Publish pick column — it preserves first instinct.
 
 ## Examples That Worked
 

@@ -1,513 +1,1340 @@
 [
   {
+    "id": "M6gNwZWY-T8",
+    "title": "What I Said About AI Hackers in 2023 Is Now Uncomfortable to Watch",
+    "date": "2026-08-20",
+    "duration_sec": 3800,
+    "type": "episode"
+  },
+  {
+    "id": "4GbFng6htaQ",
+    "title": "Former Singularity Institute President: Rationalists Are DOOMING The World",
+    "date": "2026-08-18",
+    "duration_sec": 6212,
+    "type": "episode"
+  },
+  {
+    "id": "JogGEjCsGws",
+    "title": "Doom Debates Live - Fri Aug 14",
+    "date": "2026-08-15",
+    "duration_sec": 5065,
+    "type": "episode"
+  },
+  {
+    "id": "qyajOcjiNRk",
+    "title": "14-Year-Old Forecaster Challenges My P(Doom) — Eli Goldfine",
+    "date": "2026-08-12",
+    "duration_sec": 67,
+    "type": "short"
+  },
+  {
+    "id": "Bqk5vqpzG_o",
+    "title": "This 14-Year-Old Thinks My P(Doom) Is Too High — Eli Goldfine",
+    "date": "2026-08-11",
+    "duration_sec": 7907,
+    "type": "episode"
+  },
+  {
+    "id": "BwPCFG_i1SA",
+    "title": "Will AI become lethal?",
+    "date": "2026-08-09",
+    "duration_sec": 26,
+    "type": "short"
+  },
+  {
+    "id": "RczYubQzXbI",
+    "title": "OpenAI's Model Just ATTACKED Them — Terrifying Security Incident Should Be A Loud Warning Shot",
+    "date": "2026-08-08",
+    "duration_sec": 7073,
+    "type": "episode"
+  },
+  {
     "id": "D4lHCsc33dQ",
     "title": "I Raised an AI Investor's P(Doom) Live On Air — Liron on Milk Road AI",
-    "date": "2026-08-06"
+    "date": "2026-08-06",
+    "duration_sec": 2447,
+    "type": "episode"
+  },
+  {
+    "id": "js__38EWLmY",
+    "title": "This Top AI Researcher QUIT Google DeepMind",
+    "date": "2026-08-06",
+    "duration_sec": 76,
+    "type": "short"
   },
   {
     "id": "pGlJQHVeKIA",
     "title": "Google DeepMind AI Safety Researcher Who Just RESIGNED Says P(Doom) is 25% — Debate with Alex Turner",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "duration_sec": 4034,
+    "type": "episode"
   },
   {
     "id": "EK-qIcdgIVw",
     "title": "AI Is Becoming A VIRUS, Leopold's Fund CRASH, Gary Marcus's Predictions Didn't Age Well",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "duration_sec": 8525,
+    "type": "episode"
+  },
+  {
+    "id": "C-rYOqtznR4",
+    "title": "The Official State of the Show Address - Doom Debates",
+    "date": "2026-07-30",
+    "duration_sec": 24,
+    "type": "short"
   },
   {
     "id": "JCEIjy7-N-w",
     "title": "Doom Debates State of the Show 2026: What’s Working, What’s Next, and Why We Need YOU",
-    "date": "2026-07-29"
+    "date": "2026-07-29",
+    "duration_sec": 3405,
+    "type": "episode"
   },
   {
     "id": "J3l7Yt8-af0",
     "title": "Special Report: Google DeepMind Frontier AI Policy Lead's Controversial SH*TPOST",
-    "date": "2026-07-28"
+    "date": "2026-07-28",
+    "duration_sec": 1770,
+    "type": "episode"
   },
   {
     "id": "jE1nZVjyb5A",
     "title": "Where Do YOU Get Off the Doom Train? Live Debate at Manifest 2026",
-    "date": "2026-07-25"
+    "date": "2026-07-25",
+    "duration_sec": 3050,
+    "type": "episode"
+  },
+  {
+    "id": "4FEVOMBb12w",
+    "title": "Sam Altman Wants to Build God - Dexter",
+    "date": "2026-07-25",
+    "duration_sec": 27,
+    "type": "short"
+  },
+  {
+    "id": "aTmNgbq-h-Y",
+    "title": "I asked a Mom for her P(Doom)",
+    "date": "2026-07-22",
+    "duration_sec": 35,
+    "type": "short"
+  },
+  {
+    "id": "F9Hz5m3PAm0",
+    "title": "Will AI Take Your Job? #streetinterview #cal #berkeley",
+    "date": "2026-07-22",
+    "duration_sec": 35,
+    "type": "short"
   },
   {
     "id": "03FKH3UxgTg",
     "title": "Debating College Students About AI Extinction",
-    "date": "2026-07-21"
+    "date": "2026-07-21",
+    "duration_sec": 1032,
+    "type": "episode"
+  },
+  {
+    "id": "iF1W5aCyARU",
+    "title": "OpenAI's \"Mission Impossible\" Plan",
+    "date": "2026-07-19",
+    "duration_sec": 52,
+    "type": "short"
+  },
+  {
+    "id": "uaeSP6i-hKQ",
+    "title": "AGI is coming soon.",
+    "date": "2026-07-18",
+    "duration_sec": 39,
+    "type": "short"
+  },
+  {
+    "id": "S3Y60NU-pVU",
+    "title": "Riskiest engineering project in history?",
+    "date": "2026-07-16",
+    "duration_sec": 38,
+    "type": "short"
+  },
+  {
+    "id": "j3qvhb1wTNk",
+    "title": "Dr. Mike Israetel: AI is like sex",
+    "date": "2026-07-15",
+    "duration_sec": 76,
+    "type": "short"
+  },
+  {
+    "id": "0tRyfbtTe4c",
+    "title": "Don’t Expect a Warning Shot — Rob Miles",
+    "date": "2026-07-15",
+    "duration_sec": 65,
+    "type": "short"
+  },
+  {
+    "id": "m_ipjaFJMLo",
+    "title": "Is Anthropic turning into OpenAI?",
+    "date": "2026-07-14",
+    "duration_sec": 29,
+    "type": "short"
+  },
+  {
+    "id": "shWAnZNqKVs",
+    "title": "AGI will be ruthless - Steven Byrnes",
+    "date": "2026-07-13",
+    "duration_sec": 47,
+    "type": "short"
+  },
+  {
+    "id": "t0byg29Mzyc",
+    "title": "What if AI never causes mass job loss?",
+    "date": "2026-07-11",
+    "duration_sec": 25,
+    "type": "short"
   },
   {
     "id": "ts2x41vqpds",
     "title": "AI Took His Job, But He's Trying to Stay Optimistic — Asian Dad Energy on AI Doom",
-    "date": "2026-07-07"
+    "date": "2026-07-07",
+    "duration_sec": 6562,
+    "type": "episode"
+  },
+  {
+    "id": "fATIyr8e0Nc",
+    "title": "AI Doom Debate — Asian Dad Energy vs Liron",
+    "date": "2026-07-07",
+    "duration_sec": 55,
+    "type": "short"
   },
   {
     "id": "BSkV24UpDpI",
     "title": "Dr. Mike Israetel DEBATES Live Callers — AI Doom, Chip Wars, & Genetically Engineered HOTNESS!",
-    "date": "2026-07-04"
+    "date": "2026-07-04",
+    "duration_sec": 10186,
+    "type": "episode"
   },
   {
     "id": "JXHFvo_SPwk",
     "title": "Living with a 50% P(AI Doom) — Liron Shapira and Peter Clarke",
-    "date": "2026-07-02"
+    "date": "2026-07-02",
+    "duration_sec": 2995,
+    "type": "episode"
   },
   {
     "id": "wOtgPgb6lGk",
     "title": "Let's CALL OUT the AI Doom “Enablers” Joining OpenAI & Anthropic — Dr. Holly Elmore, PauseAI US",
-    "date": "2026-06-30"
+    "date": "2026-06-30",
+    "duration_sec": 6964,
+    "type": "episode"
+  },
+  {
+    "id": "XIZlobZTxjs",
+    "title": "Casey Muratori's Not Driving the Doom Bus. Would You?",
+    "date": "2026-06-26",
+    "duration_sec": 32,
+    "type": "short"
   },
   {
     "id": "bQ7Fo1KM-t8",
     "title": "Even 0.1% P(Doom) Is UNACCEPTABLE — Casey Muratori, World-Class Coder",
-    "date": "2026-06-25"
+    "date": "2026-06-25",
+    "duration_sec": 5844,
+    "type": "episode"
+  },
+  {
+    "id": "Uv5jFX9xxAU",
+    "title": "Coming up on Doom Debates...",
+    "date": "2026-06-25",
+    "duration_sec": 12,
+    "type": "short"
+  },
+  {
+    "id": "yXmxDAdW9js",
+    "title": "NYT bestselling author on AI doom",
+    "date": "2026-06-24",
+    "duration_sec": 51,
+    "type": "short"
   },
   {
     "id": "2Zo_Ozt8jck",
     "title": "Debate with Robert Wright: Will Humanity Pass the \"God Test\"?",
-    "date": "2026-06-23"
+    "date": "2026-06-23",
+    "duration_sec": 4717,
+    "type": "episode"
   },
   {
     "id": "s80fSqj39lk",
     "title": "Will AI Actually Destroy Humanity? 1 Doomer vs 9 Rationalists at LessOnline 2026",
-    "date": "2026-06-19"
+    "date": "2026-06-19",
+    "duration_sec": 2416,
+    "type": "episode"
   },
   {
     "id": "hFxWZF_51es",
     "title": "Why I'm HAPPY the Government BANNED Claude Fable — \"AI in the AM\" Livestream with Nathan Labenz",
-    "date": "2026-06-17"
+    "date": "2026-06-17",
+    "duration_sec": 1760,
+    "type": "episode"
   },
   {
     "id": "PG-ElTe-HXQ",
     "title": "EMERGENCY EPISODE: Manhattan residents need to VOTE Alex Bores for Congress next week (Jun 23)!",
-    "date": "2026-06-15"
+    "date": "2026-06-15",
+    "duration_sec": 490,
+    "type": "clip"
   },
   {
     "id": "0XVmtazgcUw",
     "title": "This Harvard Professor Says AI Alignment Will BACKFIRE - Dr. Stephen Casper",
-    "date": "2026-06-10"
+    "date": "2026-06-10",
+    "duration_sec": 8590,
+    "type": "episode"
+  },
+  {
+    "id": "3i6wANIrtyM",
+    "title": "🌶️ Take on AI Alignment — Harvard Prof Stephen Casper",
+    "date": "2026-06-10",
+    "duration_sec": 51,
+    "type": "short"
+  },
+  {
+    "id": "NEll4_4V0xA",
+    "title": "Kevin Zhu Rides the Doom Train 🚂",
+    "date": "2026-06-03",
+    "duration_sec": 61,
+    "type": "short"
   },
   {
     "id": "wr7NYV39-0Y",
     "title": "Top Mathematicians Face Irrelevance, 7-Year-Old's P(Doom) + The “Off Switch\" Debate — DD Live (5/29)",
-    "date": "2026-05-30"
+    "date": "2026-05-30",
+    "duration_sec": 9017,
+    "type": "episode"
   },
   {
     "id": "KAjs07daQn4",
     "title": "Doom Debates LIVE Call-In & News — Fri May 29",
-    "date": "2026-05-29"
+    "date": "2026-05-29",
+    "duration_sec": 9328,
+    "type": "episode"
+  },
+  {
+    "id": "TctAfhoeXsE",
+    "title": "She Says AI Will Take Over in Just 10 YEARS!?",
+    "date": "2026-05-29",
+    "duration_sec": 63,
+    "type": "short"
+  },
+  {
+    "id": "0VvdxexHVu0",
+    "title": "New Yorkers on AI",
+    "date": "2026-05-29",
+    "duration_sec": 64,
+    "type": "short"
+  },
+  {
+    "id": "UEsYGabki38",
+    "title": "Will AI Agents Lead to Conflict? Ben Goertzel Debates Liron Shapira",
+    "date": "2026-05-29",
+    "duration_sec": 37,
+    "type": "short"
+  },
+  {
+    "id": "UHgar3i4vt4",
+    "title": "Tammy: This is Humanity's Most URGENT Issue",
+    "date": "2026-05-28",
+    "duration_sec": 64,
+    "type": "short"
+  },
+  {
+    "id": "xmksVY1Id4s",
+    "title": "DEBATE: Will AGI Unalive Humanity?",
+    "date": "2026-05-28",
+    "duration_sec": 89,
+    "type": "short"
+  },
+  {
+    "id": "KWz8eeBYkb4",
+    "title": "I ASKED REGULAR AMERICANS: WILL AI K*LL EVERYONE?",
+    "date": "2026-05-28",
+    "duration_sec": 49,
+    "type": "short"
+  },
+  {
+    "id": "o--Y0vJiKtk",
+    "title": "Grim Reaper Debates 4 Dudes about AI",
+    "date": "2026-05-27",
+    "duration_sec": 72,
+    "type": "short"
+  },
+  {
+    "id": "fcG9qLRLkK4",
+    "title": "AI Debate on the Streets Of New York!",
+    "date": "2026-05-27",
+    "duration_sec": 59,
+    "type": "short"
+  },
+  {
+    "id": "4PITxBkxs1w",
+    "title": "The Best Path to the Singularity — Ben Goertzel",
+    "date": "2026-05-27",
+    "duration_sec": 55,
+    "type": "short"
   },
   {
     "id": "UmnlhmgQnkc",
     "title": "Andrej Karpathy Joins Anthropic's DOOMSDAY Team, AI is a Math Genius, Live Callers! —Livestream 5/22",
-    "date": "2026-05-23"
+    "date": "2026-05-23",
+    "duration_sec": 8590,
+    "type": "episode"
+  },
+  {
+    "id": "L3R3iA5NshU",
+    "title": "Why ChatGPT is Conscious",
+    "date": "2026-05-22",
+    "duration_sec": 78,
+    "type": "short"
   },
   {
     "id": "WgiS3733DuU",
     "title": "I Called Out a16z Partner (Martin Casado) for Downplaying AI Capabilities in 2024 — Did It Age Well?",
-    "date": "2026-05-21"
+    "date": "2026-05-21",
+    "duration_sec": 9434,
+    "type": "episode"
   },
   {
     "id": "8vnb-nG-HmY",
     "title": "Ben Goertzel Wants to Build AGI Even FASTER — AI Doom Debate with an OG!",
-    "date": "2026-05-19"
+    "date": "2026-05-19",
+    "duration_sec": 8590,
+    "type": "episode"
+  },
+  {
+    "id": "OKe8uFoZLJE",
+    "title": "Ben Goertzel vs. Liron Shapira — AI Doom Debate",
+    "date": "2026-05-19",
+    "duration_sec": 60,
+    "type": "short"
+  },
+  {
+    "id": "1n2EHk3sxmo",
+    "title": "Why Superintelligence Terrifies Me",
+    "date": "2026-05-18",
+    "duration_sec": 57,
+    "type": "short"
+  },
+  {
+    "id": "GK0xNYBv-_g",
+    "title": "Tristan Harris: No One Wins a Race to AGI",
+    "date": "2026-05-17",
+    "duration_sec": 62,
+    "type": "short"
   },
   {
     "id": "XV1AWamW-NE",
     "title": "NEWS: Trump Floats AI Guardrails, OpenAI vs Anthropic, & Liron Caught Rationalizing!? DD Live 5/15",
-    "date": "2026-05-16"
+    "date": "2026-05-16",
+    "duration_sec": 8165,
+    "type": "episode"
+  },
+  {
+    "id": "8vwZli_quYA",
+    "title": "Are We Training AI Psychopaths?!",
+    "date": "2026-05-16",
+    "duration_sec": 49,
+    "type": "short"
   },
   {
     "id": "lXix7zRCicg",
     "title": "Fri May 15 - Doom Debates Live - Liron Reads Twitter",
-    "date": "2026-05-15"
+    "date": "2026-05-15",
+    "duration_sec": 8298,
+    "type": "episode"
   },
   {
     "id": "iRpRP0GIeLQ",
     "title": "Who Was Liron Shapira BEFORE Doom Debates? - Interview on Theo Jaffee's Podcast from December 2023",
-    "date": "2026-05-14"
+    "date": "2026-05-14",
+    "duration_sec": 5119,
+    "type": "episode"
+  },
+  {
+    "id": "48TblHxAyC8",
+    "title": "Society Has Its Pants Down - Dr. Mike vs. Liron Shapira on Threat of Superintelligence",
+    "date": "2026-05-14",
+    "duration_sec": 89,
+    "type": "short"
+  },
+  {
+    "id": "yqZWfNAvJi8",
+    "title": "Round 2: Dr. Mike Israetel vs Liron Shapira",
+    "date": "2026-05-13",
+    "duration_sec": 49,
+    "type": "short"
   },
   {
     "id": "WEMqmG1T00I",
     "title": "Dr. Mike Israetel Returns to DEBATE: AI's Gonna Kill Everyone vs. AI Will Make Everything Awesome!",
-    "date": "2026-05-12"
+    "date": "2026-05-12",
+    "duration_sec": 7735,
+    "type": "episode"
+  },
+  {
+    "id": "igRgvWQc8kg",
+    "title": "Are We a Disappointment to Ancestral Humans?",
+    "date": "2026-05-11",
+    "duration_sec": 55,
+    "type": "short"
   },
   {
     "id": "9oHESryGjTs",
     "title": "Yudkowsky Post-Debate Reaction, Elon's New Frenemy & Liron's Bet on Spencer Pratt!? - DD Live (5/8)",
-    "date": "2026-05-09"
+    "date": "2026-05-09",
+    "duration_sec": 7863,
+    "type": "episode"
   },
   {
     "id": "dvvKa52A7hg",
     "title": "[Fri May 8] Doom Debates Live - Liron Reads Twitter!",
-    "date": "2026-05-08"
+    "date": "2026-05-08",
+    "duration_sec": 7949,
+    "type": "episode"
+  },
+  {
+    "id": "XzOENGRey48",
+    "title": "Sam Altman is a \"Smarter God\" than Evolution",
+    "date": "2026-05-08",
+    "duration_sec": 53,
+    "type": "short"
   },
   {
     "id": "LcN4iLPm6CQ",
     "title": "DEBATE: \"Lumpenspace\" (AI Accelerationist) vs. Liron (AI Doomer) — Is it GOOD for AI to replace us?",
-    "date": "2026-05-07"
+    "date": "2026-05-07",
+    "duration_sec": 3582,
+    "type": "episode"
+  },
+  {
+    "id": "ZCWUf9MC3vw",
+    "title": "DEBATE: AI Won't Be a Paperclip Maximizer",
+    "date": "2026-05-07",
+    "duration_sec": 58,
+    "type": "short"
+  },
+  {
+    "id": "6cFzo2qHb38",
+    "title": "Tristan Harris: AI Can Hack Every Major OS",
+    "date": "2026-05-06",
+    "duration_sec": 56,
+    "type": "short"
   },
   {
     "id": "iWcBn99w9rQ",
     "title": "NEW: Watch the Eliezer Yudkowsky vs. Secret AI Lab Director Debate on my other channel!",
-    "date": "2026-05-05"
+    "date": "2026-05-05",
+    "duration_sec": 50,
+    "type": "short"
+  },
+  {
+    "id": "O9p1RqNZCkQ",
+    "title": "What future will our kids inherit?",
+    "date": "2026-05-05",
+    "duration_sec": 57,
+    "type": "short"
+  },
+  {
+    "id": "wqbfi6k_2I4",
+    "title": "Living With Superintelligence Is Like...",
+    "date": "2026-05-04",
+    "duration_sec": 41,
+    "type": "short"
   },
   {
     "id": "0rSSwpuubt0",
     "title": "Who Paid $10K to Debate Yudkowsky? Plus AI Twitter & Investing Tips - Doom Debates Live (5/1/26)",
-    "date": "2026-05-02"
+    "date": "2026-05-02",
+    "duration_sec": 5540,
+    "type": "episode"
   },
   {
     "id": "8QnzliJPVnM",
     "title": "Doom Debates LIVE — Liron reads Twitter — Fri May 1, 2026",
-    "date": "2026-05-02"
+    "date": "2026-05-02",
+    "duration_sec": 5806,
+    "type": "episode"
+  },
+  {
+    "id": "_tHCCiboMu4",
+    "title": "What Einstein's brain reveals about AGI",
+    "date": "2026-05-01",
+    "duration_sec": 47,
+    "type": "short"
   },
   {
     "id": "RhkIc9JVM_Q",
     "title": "Justin Helps (@PrimerBlobs) is Worried about AI Takeover",
-    "date": "2026-04-30"
+    "date": "2026-04-30",
+    "duration_sec": 3303,
+    "type": "episode"
+  },
+  {
+    "id": "2O2DeyxJ8H8",
+    "title": "AI can kill us, but will it?",
+    "date": "2026-04-30",
+    "duration_sec": 40,
+    "type": "short"
+  },
+  {
+    "id": "W_REiDZ1Wjk",
+    "title": "Debating Why AI Won't Turn Evil",
+    "date": "2026-04-29",
+    "duration_sec": 61,
+    "type": "short"
   },
   {
     "id": "-yecrUVPV_I",
     "title": "Live Q&A: Bernie Sanders Wakes Up to AI Doom, Dwarkesh's $20,000 Questions, Caller Debates Alignment",
-    "date": "2026-04-28"
+    "date": "2026-04-28",
+    "duration_sec": 7921,
+    "type": "episode"
+  },
+  {
+    "id": "sjHmls0H75E",
+    "title": "Tristan Harris: Social Media Is Rogue AI",
+    "date": "2026-04-22",
+    "duration_sec": 49,
+    "type": "short"
+  },
+  {
+    "id": "ADqZgeMhhLM",
+    "title": "Emad Mostaque Reveals His P(Doom) 😱",
+    "date": "2026-04-22",
+    "duration_sec": 46,
+    "type": "short"
   },
   {
     "id": "Y4JW5eWEFHk",
     "title": "Emad Mostaque (Stability AI Founder) Warns Humanity Has 50% P(Doom)",
-    "date": "2026-04-21"
+    "date": "2026-04-21",
+    "duration_sec": 8590,
+    "type": "episode"
+  },
+  {
+    "id": "VyVPZCJF3OE",
+    "title": "Bernie & Steve Bannon Agree on Something!?",
+    "date": "2026-04-21",
+    "duration_sec": 51,
+    "type": "short"
   },
   {
     "id": "uPaMWtAOg3U",
     "title": "Did Eliezer Yudkowsky Really Call for VIOLENCE? Debate with John Alioto",
-    "date": "2026-04-18"
+    "date": "2026-04-18",
+    "duration_sec": 3707,
+    "type": "episode"
   },
   {
     "id": "h5Jv8lJ6WG8",
     "title": "Are AI Doomers “Calling for Violence”? Debate with Steven Balik",
-    "date": "2026-04-16"
+    "date": "2026-04-16",
+    "duration_sec": 3092,
+    "type": "episode"
+  },
+  {
+    "id": "SN0Vnx4LOVA",
+    "title": "Tristan Harris: Pausing AI Is Legitimate",
+    "date": "2026-04-15",
+    "duration_sec": 70,
+    "type": "short"
   },
   {
     "id": "SMdQSMnA2BU",
     "title": "Tristan Harris and Ted Tremper are WAKING UP Humanity to AI Extinction!",
-    "date": "2026-04-14"
+    "date": "2026-04-14",
+    "duration_sec": 5239,
+    "type": "episode"
+  },
+  {
+    "id": "qt3H8w91Jsc",
+    "title": "DEBATE: Everybody Is Wrong About AI Water Use",
+    "date": "2026-04-13",
+    "duration_sec": 48,
+    "type": "short"
+  },
+  {
+    "id": "ISJe3Npm3RI",
+    "title": "Is \"Don't Look Up\" Becoming a Documentary? With Screenwriter David Sirota",
+    "date": "2026-04-09",
+    "duration_sec": 81,
+    "type": "short"
+  },
+  {
+    "id": "9KeDpozF3lk",
+    "title": "AI will make our economy 20x bigger*",
+    "date": "2026-04-08",
+    "duration_sec": 48,
+    "type": "short"
   },
   {
     "id": "L6KL4dfElvI",
     "title": "I Challenged DON’T LOOK UP’s Screenwriter to Look Up At AGI",
-    "date": "2026-04-07"
+    "date": "2026-04-07",
+    "duration_sec": 3699,
+    "type": "episode"
   },
   {
     "id": "SFa1KjxFO8A",
     "title": "I Went On Jubilee's Middle Ground To Warn About AI Extinction!",
-    "date": "2026-04-02"
+    "date": "2026-04-02",
+    "duration_sec": 242,
+    "type": "clip"
   },
   {
     "id": "tHIgDmctD9Y",
     "title": "Liron’s 700% Productivity Increase, Bernie & AOC’s Datacenter Ban, Are We In Full Takeoff? —Live Q&A",
-    "date": "2026-03-31"
+    "date": "2026-03-31",
+    "duration_sec": 8590,
+    "type": "episode"
   },
   {
     "id": "Junw5QxSOoY",
     "title": "AI Alignment Is SOLVED?! PhD Researcher Quintin Pope vs Liron Shapira (2023 Twitter Debate)",
-    "date": "2026-03-25"
+    "date": "2026-03-25",
+    "duration_sec": 4804,
+    "type": "episode"
   },
   {
     "id": "TP6s6khjPZA",
     "title": "Doom Debates Live Q&A - Mar 25",
-    "date": "2026-03-25"
+    "date": "2026-03-25",
+    "duration_sec": 7650,
+    "type": "episode"
   },
   {
     "id": "Fv16NwJN_H4",
     "title": "I'm Watching AI Take Everyone's Job | Liron on Robert Wright's NonZero Podcast",
-    "date": "2026-03-20"
+    "date": "2026-03-20",
+    "duration_sec": 3295,
+    "type": "episode"
+  },
+  {
+    "id": "Up3at_TbGpE",
+    "title": "Noah Smith CALLS OUT Eliezer Yudkowsky and AI Doomers",
+    "date": "2026-03-18",
+    "duration_sec": 42,
+    "type": "short"
   },
   {
     "id": "PcNGuJKGzBc",
     "title": "This Top Economist's P(Doom) Just Shot Up 10x! Noah Smith Returns To Explain His Update",
-    "date": "2026-03-17"
+    "date": "2026-03-17",
+    "duration_sec": 2863,
+    "type": "episode"
+  },
+  {
+    "id": "kbZt2bdi7qA",
+    "title": "Coming up on Doom Debates...",
+    "date": "2026-03-17",
+    "duration_sec": 12,
+    "type": "short"
+  },
+  {
+    "id": "7YvxaCtFuac",
+    "title": "What Claude Code means for us",
+    "date": "2026-03-14",
+    "duration_sec": 45,
+    "type": "short"
   },
   {
     "id": "43eDcYPXfIA",
     "title": "Can I Convince a Foreign Policy Crowd That AI Will Kill Us All? With Dr. Claire Berlinski",
-    "date": "2026-03-12"
+    "date": "2026-03-12",
+    "duration_sec": 5202,
+    "type": "episode"
   },
   {
     "id": "oOb9K1KIAyk",
     "title": "Top AGI Safety Researcher with 90% P(Doom) on the Trajectory to ASI — Dr. Steven Byrnes Returns!",
-    "date": "2026-03-10"
+    "date": "2026-03-10",
+    "duration_sec": 5339,
+    "type": "episode"
+  },
+  {
+    "id": "YM9SrbKKZu0",
+    "title": "Ruthless, Sociopathic AI is Coming — Dr. Steven Byrnes",
+    "date": "2026-03-10",
+    "duration_sec": 47,
+    "type": "short"
   },
   {
     "id": "2YrF48Vk3pE",
     "title": "Is AI 2027 On Track? Claude Code, P(Doom) & The End Game — Doom Debates Q&A",
-    "date": "2026-03-05"
+    "date": "2026-03-05",
+    "duration_sec": 8383,
+    "type": "episode"
+  },
+  {
+    "id": "NSgDiR9Cuxo",
+    "title": "Moshe Vardi on AI: \"We're Screwed\"",
+    "date": "2026-03-05",
+    "duration_sec": 54,
+    "type": "short"
   },
   {
     "id": "eRBIoZDxLu8",
     "title": "AI Will Take Our Jobs But SPARE Our Lives — Top AI Professor Moshe Vardi (Rice University)",
-    "date": "2026-03-03"
+    "date": "2026-03-03",
+    "duration_sec": 4034,
+    "type": "episode"
+  },
+  {
+    "id": "orom2M0Q0bE",
+    "title": "​@InternetOfBugs, You've Been Challenged to a Debate!",
+    "date": "2026-03-02",
+    "duration_sec": 22,
+    "type": "short"
   },
   {
     "id": "ozc8-Anoyz8",
     "title": "I Crashed Destiny's Discord to Debate AI with His Fans",
-    "date": "2026-02-26"
+    "date": "2026-02-26",
+    "duration_sec": 2317,
+    "type": "episode"
   },
   {
     "id": "qn1T4YwJW9o",
     "title": "Doomsday Clock Physicist Warns AI Is Major THREAT to Humanity! — Prof. Daniel Holz, Univ. of Chicago",
-    "date": "2026-02-24"
+    "date": "2026-02-24",
+    "duration_sec": 5764,
+    "type": "episode"
+  },
+  {
+    "id": "05VyWCduCBI",
+    "title": "AI vs Nuclear Risk — Prof. Daniel Holz On The Doomsday Clock, P(Doom)",
+    "date": "2026-02-24",
+    "duration_sec": 52,
+    "type": "short"
+  },
+  {
+    "id": "FuTOjFBuW5w",
+    "title": "Why Is Destiny's P(Doom) So Low?",
+    "date": "2026-02-20",
+    "duration_sec": 73,
+    "type": "short"
+  },
+  {
+    "id": "dgi3Yj-03jQ",
+    "title": "Destiny, What's Your P(Doom)?",
+    "date": "2026-02-20",
+    "duration_sec": 24,
+    "type": "short"
   },
   {
     "id": "5AnCoafsXL4",
     "title": "Why I Started Doom Debates & How to Succeed in AI Risk Comms — Liron's Talk at The Frame Fellowship",
-    "date": "2026-02-19"
+    "date": "2026-02-19",
+    "duration_sec": 3593,
+    "type": "episode"
+  },
+  {
+    "id": "Ozkffwilz24",
+    "title": "Destiny on AI skeptics: They can't accept that the brain is replaceable",
+    "date": "2026-02-18",
+    "duration_sec": 59,
+    "type": "short"
   },
   {
     "id": "rNgffLZTeWw",
     "title": "Destiny vs. Liron — AI Doom Debate",
-    "date": "2026-02-17"
+    "date": "2026-02-17",
+    "duration_sec": 4025,
+    "type": "episode"
   },
   {
     "id": "Hb3YHicquyw",
     "title": "The Facade of AI Safety Will Crumble",
-    "date": "2026-02-17"
+    "date": "2026-02-17",
+    "duration_sec": 591,
+    "type": "clip"
+  },
+  {
+    "id": "oxvlRJjcF_Y",
+    "title": "WATCH NOW: Destiny vs Liron on AI Doom",
+    "date": "2026-02-17",
+    "duration_sec": 77,
+    "type": "short"
   },
   {
     "id": "YxUg8xd3EuE",
     "title": "This Elon Clip Should TERRIFY Every Single Person on Earth - Liron Reacts to New Interview",
-    "date": "2026-02-14"
+    "date": "2026-02-14",
+    "duration_sec": 613,
+    "type": "clip"
   },
   {
     "id": "lmnW1nIRKHw",
     "title": "What if the Governor of California had a 50% P(Doom)? Interview with Zoltan Istvan, Candidate",
-    "date": "2026-02-13"
+    "date": "2026-02-13",
+    "duration_sec": 8590,
+    "type": "episode"
+  },
+  {
+    "id": "Kl8AoMM208g",
+    "title": "ROUND 2: Bentham's Bulldog vs Liron Shapira",
+    "date": "2026-02-11",
+    "duration_sec": 36,
+    "type": "short"
   },
   {
     "id": "1F7ZYwW2TEo",
     "title": "\"Bentham's Bulldog\" Says P(Doom) is LOW — Matthew Adelstein vs. Liron Shapira Debate",
-    "date": "2026-02-10"
+    "date": "2026-02-10",
+    "duration_sec": 8860,
+    "type": "episode"
   },
   {
     "id": "Y1uqJa0as2s",
     "title": "Did you catch our Super Bowl ad?",
-    "date": "2026-02-08"
+    "date": "2026-02-08",
+    "duration_sec": 29,
+    "type": "short"
+  },
+  {
+    "id": "Vm9kf9aZ5Q4",
+    "title": "Liron ROASTS Dario Amodei's New Essay",
+    "date": "2026-02-05",
+    "duration_sec": 48,
+    "type": "short"
   },
   {
     "id": "aCYVVzza7A0",
     "title": "Dario Amodei BUNGLES another essay — MIRI's Harlan Stewart reacts to “The Adolescence of Technology”",
-    "date": "2026-02-04"
+    "date": "2026-02-04",
+    "duration_sec": 4553,
+    "type": "episode"
+  },
+  {
+    "id": "nHAghGy9hWU",
+    "title": "Viewer Confronts Liron: \"I Want to Scream at You!\"",
+    "date": "2026-01-30",
+    "duration_sec": 26,
+    "type": "short"
   },
   {
     "id": "ulZT2eJrBhM",
     "title": "Q&A: Is Liron too DISMISSIVE of AI Harms? + New Studio, Demis Would #PauseAI, AI Water Use Debate",
-    "date": "2026-01-27"
+    "date": "2026-01-27",
+    "duration_sec": 7747,
+    "type": "episode"
   },
   {
     "id": "ipivxmA7mhU",
     "title": "Doom Debates Live Q&A!",
-    "date": "2026-01-25"
+    "date": "2026-01-25",
+    "duration_sec": 8082,
+    "type": "episode"
   },
   {
     "id": "bvcmiirT8ME",
     "title": "Taiwan's Cyber Ambassador Says Humans & AI Can FOOM Together — Debate with Audrey Tang",
-    "date": "2026-01-20"
+    "date": "2026-01-20",
+    "duration_sec": 6721,
+    "type": "episode"
+  },
+  {
+    "id": "uQ4Lxf4VhUY",
+    "title": "Taiwan's Cyber Ambassador: \"My P(doom) is NaN\" — Audrey Tang",
+    "date": "2026-01-20",
+    "duration_sec": 103,
+    "type": "short"
+  },
+  {
+    "id": "xlYoEMTdFl0",
+    "title": "But How Would AI Destroy Humanity?",
+    "date": "2026-01-14",
+    "duration_sec": 67,
+    "type": "short"
   },
   {
     "id": "-OJC8ck-IWA",
     "title": "STOP THE AI INVASION — Steve Bannon's War Room Confronts AI Doom with Joe Allen and Liron Shapira",
-    "date": "2026-01-13"
+    "date": "2026-01-13",
+    "duration_sec": 1831,
+    "type": "episode"
+  },
+  {
+    "id": "QQFhOLvDqLM",
+    "title": "Noah Smith's P(Doom) is...",
+    "date": "2026-01-08",
+    "duration_sec": 93,
+    "type": "short"
   },
   {
     "id": "AwmJ-OnK2I4",
     "title": "Top Economist Says P(Doom) Is 0.1% — Noah Smith vs. Liron Shapira Debate",
-    "date": "2026-01-05"
+    "date": "2026-01-05",
+    "duration_sec": 6910,
+    "type": "episode"
   },
   {
     "id": "h4bGet9QLnw",
     "title": "Liron Debates Beff Jezos and the \"e/acc\" Army — Is AI Doom Retarded?",
-    "date": "2025-12-30"
+    "date": "2025-12-30",
+    "duration_sec": 13950,
+    "type": "episode"
   },
   {
     "id": "1hRO7Y-cArs",
     "title": "Doom Debates LIVE Call-In Show! Listener Q&A about AGI, evolution vs. engineering, shoggoths & more",
-    "date": "2025-12-24"
+    "date": "2025-12-24",
+    "duration_sec": 10483,
+    "type": "episode"
   },
   {
     "id": "yha1ZFF4KFw",
     "title": "DOOMER vs. BUILDER — AI Doom Debate with Devin Elliot, Software Engineer & Retired Pro Snowboarder",
-    "date": "2025-12-17"
+    "date": "2025-12-17",
+    "duration_sec": 4624,
+    "type": "episode"
   },
   {
     "id": "RVpXEJt8i64",
     "title": "PhD AI Researcher Says P(Doom) is TINY — Debate with Michael Timothy Bennett",
-    "date": "2025-12-11"
+    "date": "2025-12-11",
+    "duration_sec": 6745,
+    "type": "episode"
+  },
+  {
+    "id": "AtxbciDRz4M",
+    "title": "Nobel Laureate's AI Prediction",
+    "date": "2025-12-09",
+    "duration_sec": 69,
+    "type": "short"
+  },
+  {
+    "id": "ozya81uYVfQ",
+    "title": "Nobel Laureate SWAYED in AI DOOM Debate — Michael Levitt",
+    "date": "2025-12-08",
+    "duration_sec": 58,
+    "type": "short"
+  },
+  {
+    "id": "a-giDmVZS_o",
+    "title": "AI exists today because of… gamers?!",
+    "date": "2025-12-05",
+    "duration_sec": 36,
+    "type": "short"
   },
   {
     "id": "qNfd2RfsBrA",
     "title": "Nobel Prizewinner SWAYED by My AI Doom Argument —  Prof. Michael Levitt, Stanford University",
-    "date": "2025-12-04"
+    "date": "2025-12-04",
+    "duration_sec": 4311,
+    "type": "episode"
+  },
+  {
+    "id": "Buqc8aqlkxE",
+    "title": "AI beat humans on his music test 😱",
+    "date": "2025-12-03",
+    "duration_sec": 112,
+    "type": "short"
+  },
+  {
+    "id": "qw701n2Wlf4",
+    "title": "How to Cope with Impending AI Doom",
+    "date": "2025-12-02",
+    "duration_sec": 125,
+    "type": "short"
+  },
+  {
+    "id": "WOt5lnn3zGw",
+    "title": "Nuclear war planning is evil",
+    "date": "2025-12-01",
+    "duration_sec": 47,
+    "type": "short"
+  },
+  {
+    "id": "zi7CpOCmR5s",
+    "title": "The terrifying lesson from nukes",
+    "date": "2025-12-01",
+    "duration_sec": 46,
+    "type": "short"
+  },
+  {
+    "id": "RNyH1fRt8dU",
+    "title": "Daniel Ellsberg's Son Speaks Out 🚨",
+    "date": "2025-12-01",
+    "duration_sec": 71,
+    "type": "short"
   },
   {
     "id": "K2F5tCWpPJ8",
     "title": "Facing AI Doom, Lessons from Daniel Ellsberg (Pentagon Papers) — Michael Ellsberg",
-    "date": "2025-11-29"
+    "date": "2025-11-29",
+    "duration_sec": 8150,
+    "type": "episode"
+  },
+  {
+    "id": "bmtdnCXiwuA",
+    "title": "The CCP's Reaction to Elon Musk: 😱",
+    "date": "2025-11-27",
+    "duration_sec": 55,
+    "type": "short"
+  },
+  {
+    "id": "DNEi9TDO9gE",
+    "title": "Max Tegmark on the big \"oopsie\" for humanity that might happen",
+    "date": "2025-11-27",
+    "duration_sec": 39,
+    "type": "short"
+  },
+  {
+    "id": "ZLn9sZrwymg",
+    "title": "DEBATE: Is Superintelligence Actually Regulated? Max Tegmark vs Dean Ball",
+    "date": "2025-11-25",
+    "duration_sec": 42,
+    "type": "short"
+  },
+  {
+    "id": "yz8GMjHv-Os",
+    "title": "What's Your P(Doom)? Max Tegmark vs Dean Ball",
+    "date": "2025-11-22",
+    "duration_sec": 102,
+    "type": "short"
   },
   {
     "id": "OkG5S1NwwVM",
     "title": "Max Tegmark vs. Dean Ball: Should We BAN Superintelligence?",
-    "date": "2025-11-20"
+    "date": "2025-11-20",
+    "duration_sec": 6647,
+    "type": "episode"
+  },
+  {
+    "id": "1-JSMs3R3GE",
+    "title": "MIRI is not a \"doomer\" organization",
+    "date": "2025-11-18",
+    "duration_sec": 50,
+    "type": "short"
+  },
+  {
+    "id": "nPHmc5P8hsU",
+    "title": "Will AI Corrigibility Research Save Us?",
+    "date": "2025-11-17",
+    "duration_sec": 76,
+    "type": "short"
   },
   {
     "id": "wQCYjvKE4oE",
     "title": "The AI Corrigibility Debate: MIRI Researchers Max Harms vs. Jeremy Gillen",
-    "date": "2025-11-13"
+    "date": "2025-11-13",
+    "duration_sec": 8268,
+    "type": "episode"
   },
   {
     "id": "jUaueNkDQBE",
     "title": "AI BAILOUT!? OpenAI Seeks US Backstop on Massive Compute Bets — Warning Shots EP17",
-    "date": "2025-11-11"
+    "date": "2025-11-11",
+    "duration_sec": 1711,
+    "type": "episode"
   },
   {
     "id": "mFFObQ6vnLU",
     "title": "These Effective Altruists Betrayed Me — Holly Elmore, PauseAI US Executive Director",
-    "date": "2025-11-10"
+    "date": "2025-11-10",
+    "duration_sec": 978,
+    "type": "episode"
   },
   {
     "id": "xev_RLnWJP8",
     "title": "DEBATE: Is AGI Really Decades Away? | Ex-MIRI Researcher Tsvi Benson-Tilsen vs. Liron Shapira",
-    "date": "2025-11-07"
+    "date": "2025-11-07",
+    "duration_sec": 3161,
+    "type": "episode"
   },
   {
     "id": "CxsdPxgDZ0g",
     "title": "Liron Debunks The Most Common “AI Won't Kill Us\" Arguments (Collective Wisdom Podcast)",
-    "date": "2025-11-05"
+    "date": "2025-11-05",
+    "duration_sec": 3991,
+    "type": "episode"
   },
   {
     "id": "coXlEHlBwzY",
     "title": "GPT-5 Refuses to Be Unplugged in Safety Tests — Warning Shots EP16",
-    "date": "2025-11-04"
+    "date": "2025-11-04",
+    "duration_sec": 1380,
+    "type": "episode"
   },
   {
     "id": "RT_zd-1V2lc",
     "title": "Why AI Alignment Is 0% Solved — Ex-MIRI Researcher Tsvi Benson-Tilsen",
-    "date": "2025-10-31"
+    "date": "2025-10-31",
+    "duration_sec": 2444,
+    "type": "episode"
   },
   {
     "id": "ZFrHIINLmF8",
     "title": "50% Chance AI Kills Everyone by 2050 —  Eben Pagan (aka David DeAngelo) Interviews Liron",
-    "date": "2025-10-29"
+    "date": "2025-10-29",
+    "duration_sec": 2847,
+    "type": "episode"
   },
   {
     "id": "FIvMrdQ5-HU",
     "title": "Prince Harry, Geoffrey Hinton Demand Global BAN On Superintelligence — Warning Shots EP15",
-    "date": "2025-10-28"
+    "date": "2025-10-28",
+    "duration_sec": 1653,
+    "type": "episode"
   },
   {
     "id": "fBdbu58QX40",
     "title": "Former MIRI Researcher Solving AI Alignment by Engineering Smarter Human Babies: Tsvi Benson-Tilsen",
-    "date": "2025-10-25"
+    "date": "2025-10-25",
+    "duration_sec": 2968,
+    "type": "episode"
   },
   {
     "id": "xm0UdTIQXeM",
     "title": "Robert Wright Interrogates the Eliezer Yudkowsky AI Doom Position",
-    "date": "2025-10-22"
+    "date": "2025-10-22",
+    "duration_sec": 2856,
+    "type": "episode"
   },
   {
     "id": "mHPY1GgmT7o",
     "title": "STUNNING Confessions from Elon Musk and Anthropic Founder Jack Clark — Warning Shots EP14",
-    "date": "2025-10-21"
+    "date": "2025-10-21",
+    "duration_sec": 1268,
+    "type": "episode"
   },
   {
     "id": "4DpP-T-rGWQ",
     "title": "Climate Change Is Stupidly EASY To Stop — Andrew Song, Cofounder of Make Sunsets",
-    "date": "2025-10-17"
+    "date": "2025-10-17",
+    "duration_sec": 4662,
+    "type": "episode"
   },
   {
     "id": "Tnx57KwH6Xo",
-    "title": "Everyone is Freaking Out About Sora 2 for the WRONG Reasons — Warning Shots EP13",
-    "date": "2025-10-14"
+    "title": "They Abandoned AI Safety to Automate Away Human Workers — Warning Shots EP13",
+    "date": "2025-10-14",
+    "duration_sec": 1239,
+    "type": "episode"
   },
   {
     "id": "mQPR5zb4jzY",
     "title": "Professor Roman Yampolskiy Tells AI Developers to Stop Building AGI",
-    "date": "2025-10-13"
+    "date": "2025-10-13",
+    "duration_sec": 888,
+    "type": "clip"
   },
   {
     "id": "koubXR0YL4A",
     "title": "David Deutschian vs. Eliezer Yudkowskian Debate: Will AGI Cooperate With Humanity? — With Brett Hall",
-    "date": "2025-10-09"
+    "date": "2025-10-09",
+    "duration_sec": 9480,
+    "type": "episode"
   },
   {
     "id": "U6_Sgro2laI",
     "title": "The End of AI Warning Shots? — Warning Shots EP12",
-    "date": "2025-10-07"
+    "date": "2025-10-07",
+    "duration_sec": 1391,
+    "type": "episode"
   },
   {
     "id": "Mk0WwSjEh-U",
     "title": "I Asked Regular Americans: Will AI Kill Everyone!?",
-    "date": "2025-10-04"
+    "date": "2025-10-04",
+    "duration_sec": 1383,
+    "type": "episode"
   },
   {
     "id": "Fy6gz41-6gc",
     "title": "Wes & Dylan Join Doom Debates — Violent Robots, Eliezer Yudkowsky, & Who Has the HIGHEST P(Doom)?!",
-    "date": "2025-10-02"
+    "date": "2025-10-02",
+    "duration_sec": 3845,
+    "type": "episode"
   },
   {
     "id": "4WWkGYO1kvk",
     "title": "The Doom Debates Merch Store Is Open For Business!",
-    "date": "2025-10-01"
+    "date": "2025-10-01",
+    "duration_sec": 305,
+    "type": "clip"
   },
   {
     "id": "WAByU0W89xE",
     "title": "Trump Officials Gaslight Us About AI Takeover — Warning Shots EP11",
-    "date": "2025-09-30"
+    "date": "2025-09-30",
+    "duration_sec": 1009,
+    "type": "episode"
   },
   {
     "id": "5yw8H9lFiAk",
     "title": "Are We A Circular Firing Squad? — with Holly Elmore, Executive Director of PauseAI US",
-    "date": "2025-09-27"
+    "date": "2025-09-27",
+    "duration_sec": 9703,
+    "type": "episode"
   },
   {
     "id": "q7WlUUojO_g",
     "title": "Ex-OpenAI CEO Says AI Labs Are Making a HUGE Mistake",
-    "date": "2025-09-26"
+    "date": "2025-09-26",
+    "duration_sec": 709,
+    "type": "clip"
   },
   {
     "id": "cjQ-zuZgMoI",
     "title": "Donate to Doom Debates — YOU can meaningfully contribute to lowering AI x-risk!",
-    "date": "2025-09-25"
+    "date": "2025-09-25",
+    "duration_sec": 1074,
+    "type": "episode"
   },
   {
     "id": "tW7i-R6-ovc",
     "title": "Liv Boeree Has a Strategy to Stop the AI Death Race",
-    "date": "2025-09-24"
+    "date": "2025-09-24",
+    "duration_sec": 1259,
+    "type": "episode"
   },
   {
     "id": "xpl-Its37lM",
     "title": "AI Takes Over As Finance Minister of Albania — Warning Shots EP10",
-    "date": "2025-09-23"
+    "date": "2025-09-23",
+    "duration_sec": 1162,
+    "type": "episode"
   },
   {
     "id": "lRITRf-jH1g",
     "title": "“If Anyone Builds It, Everyone Dies” Party — Max Tegmark, Rob Miles, Liv Boeree, Gary Marcus & more!",
-    "date": "2025-09-19"
+    "date": "2025-09-19",
+    "duration_sec": 13799,
+    "type": "episode"
   },
   {
     "id": "ZCkiPC3xAg4",
     "title": "Max Tegmark Says It's Time To Protest Against AI Companies",
-    "date": "2025-09-18"
+    "date": "2025-09-18",
+    "duration_sec": 239,
+    "type": "clip"
   },
   {
     "id": "cJF1lMO-OlA",
     "title": "\"If Anyone Builds It\" Unofficial LAUNCH PARTY!",
-    "date": "2025-09-17"
+    "date": "2025-09-17",
+    "duration_sec": 14497,
+    "type": "episode"
   },
   {
     "id": "LixeVi6NlDU",
     "title": "Eliezer Yudkowsky — If Anyone Builds It, Everyone Dies",
-    "date": "2025-09-15"
+    "date": "2025-09-15",
+    "duration_sec": 81,
+    "type": "short"
   },
   {
     "id": "lw27rz8uQIM",
     "title": "ANNOUNCEMENT: Eliezer Yudkowsky interview premieres tomorrow!",
-    "date": "2025-09-15"
+    "date": "2025-09-15",
+    "duration_sec": 188,
+    "type": "clip"
   },
   {
     "id": "N-KTuwLjHE8",
@@ -517,626 +1344,939 @@
   {
     "id": "MRnGc_40dRg",
     "title": "Get ready for “If Anyone Builds It, Everyone Dies” by Eliezer Yudkowsky & Nate Soares — Launch Week!",
-    "date": "2025-09-10"
+    "date": "2025-09-10",
+    "duration_sec": 390,
+    "type": "clip"
+  },
+  {
+    "id": "Mr7mb1lMIbM",
+    "title": "Why Rob Miles Doesn't Protest Against AI Labs",
+    "date": "2025-09-10",
+    "duration_sec": 29,
+    "type": "short"
   },
   {
     "id": "f_GCtbfPZmU",
     "title": "AI Might Start a Nuclear War | Warning Shots EP8",
-    "date": "2025-09-09"
+    "date": "2025-09-09",
+    "duration_sec": 1035,
+    "type": "episode"
+  },
+  {
+    "id": "EyID4dfZMRI",
+    "title": "Mike Israetel Would Go to War With China over AI, if He Had 5% P(Doom)",
+    "date": "2025-09-07",
+    "duration_sec": 67,
+    "type": "short"
+  },
+  {
+    "id": "83_eZPIC9ss",
+    "title": "Humanity is On the Titanic, But We Haven't Struck the Iceberg Yet — Rob Miles",
+    "date": "2025-09-06",
+    "duration_sec": 32,
+    "type": "short"
   },
   {
     "id": "Nk9SmqmzNs8",
     "title": "ChatGPT Encouraged a Teen to Take His Own Life | Warning Shots EP7",
-    "date": "2025-09-03"
+    "date": "2025-09-03",
+    "duration_sec": 1149,
+    "type": "episode"
+  },
+  {
+    "id": "pIlptgVZwxY",
+    "title": "Our Brains Are More Efficient Than AI Algorithms, Explains Scientist",
+    "date": "2025-09-02",
+    "duration_sec": 62,
+    "type": "short"
+  },
+  {
+    "id": "sU_M-zzxCEg",
+    "title": "Tech CTO: AI Doom Is Almost Certain 😱",
+    "date": "2025-09-02",
+    "duration_sec": 60,
+    "type": "short"
+  },
+  {
+    "id": "PyIMUNLm80Y",
+    "title": "Professor: Students Won't Read Textbooks Anymore",
+    "date": "2025-09-01",
+    "duration_sec": 39,
+    "type": "short"
+  },
+  {
+    "id": "Hky31tKiD-4",
+    "title": "AI DEBATE: Ray Kurzweil is Delusional | Louis Berman vs Liron Shapira",
+    "date": "2025-09-01",
+    "duration_sec": 77,
+    "type": "short"
   },
   {
     "id": "XPWKHcS6qEs",
     "title": "This AI Safety Activist Just Bought a \"Bugout House\" | Tech CTO on Prepping for AI Doom",
-    "date": "2025-08-31"
+    "date": "2025-08-31",
+    "duration_sec": 953,
+    "type": "episode"
   },
   {
     "id": "ptnm0bnXLjA",
     "title": "Concerned About AI? 3 Actions You Can Take That Truly Matter",
-    "date": "2025-08-31"
+    "date": "2025-08-31",
+    "duration_sec": 481,
+    "type": "clip"
+  },
+  {
+    "id": "l4W68erFN1k",
+    "title": "Tech CTO: You Should Be Terrified of AI",
+    "date": "2025-08-30",
+    "duration_sec": 42,
+    "type": "short"
+  },
+  {
+    "id": "7_6WDJ55nOo",
+    "title": "Are Professors CHEATING with AI?",
+    "date": "2025-08-29",
+    "duration_sec": 36,
+    "type": "short"
   },
   {
     "id": "lTLtxhYI3p0",
     "title": "Tech CTO Has 99.999% P(Doom) — “This is my bugout house” — Louis Berman, AI X-Risk Activist",
-    "date": "2025-08-28"
+    "date": "2025-08-28",
+    "duration_sec": 4865,
+    "type": "episode"
   },
   {
     "id": "Fm-4supPTig",
     "title": "Rob Miles: Don't Expect a \"Warning Shot\" Before AI Causes Catastrophic Harm",
-    "date": "2025-08-28"
+    "date": "2025-08-28",
+    "duration_sec": 190,
+    "type": "clip"
   },
   {
     "id": "COXVMK8GD9Q",
     "title": "DEBATE: AI Safety at Anthropic is a Sham | Rob Miles vs. Liron Shapira",
-    "date": "2025-08-27"
+    "date": "2025-08-27",
+    "duration_sec": 894,
+    "type": "clip"
   },
   {
     "id": "Aca8NfMzTjM",
     "title": "Does Rob Miles Have a P(doom)?",
-    "date": "2025-08-27"
+    "date": "2025-08-27",
+    "duration_sec": 572,
+    "type": "clip"
   },
   {
     "id": "7Tmnw8Cj00Y",
     "title": "AI Might Be CONSCIOUS, But Anthropic Has A Duct Tape Solution | Warning Shots EP6",
-    "date": "2025-08-25"
+    "date": "2025-08-25",
+    "duration_sec": 1094,
+    "type": "episode"
   },
   {
     "id": "eadR7ohBKJ4",
     "title": "Rob Miles, Top AI Safety Educator: Humanity Isn’t Ready for Superintelligence!",
-    "date": "2025-08-23"
+    "date": "2025-08-23",
+    "duration_sec": 7910,
+    "type": "episode"
   },
   {
     "id": "9jd3CExdLX4",
     "title": "DEBATE: AI Alignment is Intractable | Vitalik Buterin vs Liron Shapira",
-    "date": "2025-08-20"
+    "date": "2025-08-20",
+    "duration_sec": 893,
+    "type": "clip"
   },
   {
     "id": "RNksF-Ubkfk",
     "title": "Vitalik Buterin on the Risk of AI Apocalypse — 12% P(Doom)",
-    "date": "2025-08-19"
+    "date": "2025-08-19",
+    "duration_sec": 466,
+    "type": "clip"
   },
   {
     "id": "HVl9MpdRUsM",
     "title": "OpenAI Tried to Sunset GPT-4o, Here’s What The Backlash Revealed | Warning Shots EP5",
-    "date": "2025-08-18"
+    "date": "2025-08-18",
+    "duration_sec": 1091,
+    "type": "episode"
   },
   {
     "id": "hxlcQzvnmWI",
     "title": "VITALIK vs. AI DOOMER — Will “d/acc” Protect Humanity from Superintelligent AI?",
-    "date": "2025-08-12"
+    "date": "2025-08-12",
+    "duration_sec": 8770,
+    "type": "episode"
   },
   {
     "id": "Q6cK32Wi97Q",
     "title": "AI Blackmailed Researchers to Avoid Shutdown | Warning Shots EP4",
-    "date": "2025-08-11"
+    "date": "2025-08-11",
+    "duration_sec": 1220,
+    "type": "episode"
   },
   {
     "id": "hi5VTZcjAqc",
     "title": "Why I'm Scared GPT-9 Will Murder Me — Liron on Robert Wright’s Nonzero Podcast",
-    "date": "2025-08-08"
+    "date": "2025-08-08",
+    "duration_sec": 4764,
+    "type": "episode"
   },
   {
     "id": "sbaS93wsPwQ",
     "title": "What is Brain-Like AGI? Steven Byrnes Explains New AI Alignment Research Direction",
-    "date": "2025-08-08"
+    "date": "2025-08-08",
+    "duration_sec": 799,
+    "type": "clip"
   },
   {
     "id": "6V5ytKFLRvI",
     "title": "AI Researcher Steven Byrnes Has a 90% P(doom)",
-    "date": "2025-08-06"
+    "date": "2025-08-06",
+    "duration_sec": 372,
+    "type": "clip"
   },
   {
     "id": "an9ZjhF-bVQ",
     "title": "Misaligned AI Already Causing Damage! | Warning Shots EP 3",
-    "date": "2025-08-05"
+    "date": "2025-08-05",
+    "duration_sec": 1125,
+    "type": "episode"
   },
   {
     "id": "_ZRUq3VEAc0",
     "title": "The Man Who Might SOLVE AI Alignment — Dr. Steven Byrnes, AGI Safety Researcher @ Astera Institute",
-    "date": "2025-08-01"
+    "date": "2025-08-01",
+    "duration_sec": 11717,
+    "type": "episode"
   },
   {
     "id": "jwN8Zjo1VpA",
     "title": "Finally, a guest who's actually RIGHT…",
-    "date": "2025-07-30"
+    "date": "2025-07-30",
+    "duration_sec": 68,
+    "type": "short"
   },
   {
     "id": "BnNPq0gUGtY",
     "title": "Why Professor Geoffrey Miller Has a 50% P(Doom)",
-    "date": "2025-07-29"
+    "date": "2025-07-29",
+    "duration_sec": 745,
+    "type": "clip"
   },
   {
     "id": "8frVhunaXyU",
     "title": "We Caught AIs Secretly Changing Each Other's Values | Warning Shots EP2",
-    "date": "2025-07-27"
+    "date": "2025-07-27",
+    "duration_sec": 924,
+    "type": "episode"
   },
   {
     "id": "fbRSn4XxNCU",
     "title": "Evolutionary Psychologist Explains The Role of Sex — Error Correction and Variety",
-    "date": "2025-07-26"
+    "date": "2025-07-26",
+    "duration_sec": 481,
+    "type": "clip"
   },
   {
     "id": "MtMxdIV3sYM",
     "title": "Top Professor Condemns AGI Development: “It’s Frankly Evil” — Geoffrey Miller",
-    "date": "2025-07-24"
+    "date": "2025-07-24",
+    "duration_sec": 7021,
+    "type": "episode"
   },
   {
     "id": "R34m_4tFaa4",
     "title": "Zuck’s Superintelligence Agenda is a SCANDAL | Warning Shots EP1",
-    "date": "2025-07-22"
+    "date": "2025-07-22",
+    "duration_sec": 1219,
+    "type": "episode"
   },
   {
     "id": "caBdnKF38ok",
     "title": "Rationalist Podcasts Unite! — The Bayesian Conspiracy ⨉ Doom Debates Crossover",
-    "date": "2025-07-18"
+    "date": "2025-07-18",
+    "duration_sec": 5667,
+    "type": "episode"
   },
   {
     "id": "VwYQxo8N8aM",
     "title": "His P(Doom) Doubles At The End — AI Safety Debate with Liam Robins, GWU Sophomore",
-    "date": "2025-07-15"
+    "date": "2025-07-15",
+    "duration_sec": 3912,
+    "type": "episode"
   },
   {
     "id": "X55fr3xaSjs",
     "title": "AI Won't Save Your Job — Liron Reacts to Replit CEO Amjad Masad",
-    "date": "2025-07-10"
+    "date": "2025-07-10",
+    "duration_sec": 6348,
+    "type": "episode"
   },
   {
     "id": "tXwjO4MiaAg",
     "title": "Every Student is CHEATING with AI — College in the AGI Era (feat. Sophomore Liam Robins)",
-    "date": "2025-07-07"
+    "date": "2025-07-07",
+    "duration_sec": 2321,
+    "type": "episode"
   },
   {
     "id": "MmHy2NmbTPQ",
     "title": "Carl Feynman, AI Engineer & Son of Richard Feynman, Says Building AGI Likely Means Human EXTINCTION!",
-    "date": "2025-07-04"
+    "date": "2025-07-04",
+    "duration_sec": 3425,
+    "type": "episode"
   },
   {
     "id": "KqRbYZL7gN8",
     "title": "Richard Hanania vs. Liron Shapira — AI Doom Debate",
-    "date": "2025-06-28"
+    "date": "2025-06-28",
+    "duration_sec": 6767,
+    "type": "episode"
   },
   {
     "id": "CBN1E1fvh2g",
     "title": "OpenAI Ex-Interim-CEO's New AI Alignment Plan — Is Emmett Shear's “Softmax” Legit?",
-    "date": "2025-06-24"
+    "date": "2025-06-24",
+    "duration_sec": 6791,
+    "type": "episode"
   },
   {
     "id": "Yw1NCLHlxL0",
     "title": "Will AI Have a Moral Compass? — Debate with Scott Sumner, Author of The Money Illusion",
-    "date": "2025-06-18"
+    "date": "2025-06-18",
+    "duration_sec": 8590,
+    "type": "episode"
   },
   {
     "id": "06KACQ-SLAY",
     "title": "Searle's Chinese Room is DUMB — It's Just Slow-Motion Intelligence",
-    "date": "2025-06-14"
+    "date": "2025-06-14",
+    "duration_sec": 286,
+    "type": "clip"
   },
   {
     "id": "cmGGo8RblQ4",
     "title": "What's Your P(Doom) [Acoustic]",
-    "date": "2025-06-12"
+    "date": "2025-06-12",
+    "duration_sec": 8,
+    "type": "short"
   },
   {
     "id": "detjIyxWG8M",
     "title": "Doom Debates Live @ Manifest 2025 — Liron vs. Everyone",
-    "date": "2025-06-09"
+    "date": "2025-06-09",
+    "duration_sec": 2621,
+    "type": "episode"
   },
   {
     "id": "Qcf_cZbhSWY",
     "title": "Poking holes in the AI doom argument — 83 stops where you could get off the “Doom Train”",
-    "date": "2025-06-07"
+    "date": "2025-06-07",
+    "duration_sec": 1657,
+    "type": "episode"
   },
   {
     "id": "OBMNcgyrFXs",
     "title": "Doom Debates 5,000 Subscribers Live Q&A",
-    "date": "2025-05-29"
+    "date": "2025-05-29",
+    "duration_sec": 5768,
+    "type": "episode"
   },
   {
     "id": "GWHypAa3Ols",
     "title": "Q&A: Ilya's AGI Doomsday Bunker, Veo 3 is Westworld, Eliezer Yudkowsky, and much more!",
-    "date": "2025-05-29"
+    "date": "2025-05-29",
+    "duration_sec": 5750,
+    "type": "episode"
   },
   {
     "id": "yCskXECDOq8",
     "title": "Open-Source AGI = Human Extinction? Debate with $85M Backed AI Founder",
-    "date": "2025-05-22"
+    "date": "2025-05-22",
+    "duration_sec": 4907,
+    "type": "episode"
   },
   {
     "id": "StAUBKbPFoE",
     "title": "Emergency Episode: John Sherman FIRED from Center for AI Safety",
-    "date": "2025-05-21"
+    "date": "2025-05-21",
+    "duration_sec": 1004,
+    "type": "episode"
   },
   {
     "id": "v515svJ55PU",
     "title": "Gary Marcus vs. Liron Shapira — AI Doom Debate",
-    "date": "2025-05-15"
+    "date": "2025-05-15",
+    "duration_sec": 7441,
+    "type": "episode"
   },
   {
     "id": "RaDWSPMdM4o",
     "title": "Mike Israetel vs. Liron Shapira — AI Doom Debate",
-    "date": "2025-05-08"
+    "date": "2025-05-08",
+    "duration_sec": 8110,
+    "type": "episode"
   },
   {
     "id": "TtPnMIhkqVs",
     "title": "Doom Scenario: Human-Level AI Can't Control Smarter AI",
-    "date": "2025-05-05"
+    "date": "2025-05-05",
+    "duration_sec": 5053,
+    "type": "episode"
   },
   {
     "id": "FaQjEABZ80g",
     "title": "The Most Likely AI Doom Scenario — with Jim Babcock, LessWrong Team",
-    "date": "2025-04-30"
+    "date": "2025-04-30",
+    "duration_sec": 6808,
+    "type": "episode"
   },
   {
     "id": "6re47zw_6g0",
     "title": "AI could give humans MORE control — Ozzie Gooen",
-    "date": "2025-04-24"
+    "date": "2025-04-24",
+    "duration_sec": 7154,
+    "type": "episode"
   },
   {
     "id": "mb9w7lFIHRM",
     "title": "Top AI Professor Has 85% P(Doom) — David Duvenaud, Fmr. Anthropic Safety Team Lead",
-    "date": "2025-04-18"
+    "date": "2025-04-18",
+    "duration_sec": 7653,
+    "type": "episode"
   },
   {
     "id": "-924PGYgYek",
     "title": "“AI 2027” — Top Superforecaster's Imminent Doom Scenario",
-    "date": "2025-04-15"
+    "date": "2025-04-15",
+    "duration_sec": 3470,
+    "type": "episode"
   },
   {
     "id": "nJhlqUxTM0U",
     "title": "Top Economist Sees AI Doom Coming — Dr. Peter Berezin, BCA Research",
-    "date": "2025-04-09"
+    "date": "2025-04-09",
+    "duration_sec": 8098,
+    "type": "episode"
   },
   {
     "id": "SsGShgdJdcY",
     "title": "AI News: GPT-4o Images, Unemployment, Emmett Shear's New Safety Org — with Nathan Labenz",
-    "date": "2025-04-03"
+    "date": "2025-04-03",
+    "duration_sec": 8392,
+    "type": "episode"
   },
   {
     "id": "D4bbUAaMVTg",
     "title": "How an AI Doomer Sees The World — Liron on The Human Podcast",
-    "date": "2025-03-28"
+    "date": "2025-03-28",
+    "duration_sec": 2751,
+    "type": "episode"
   },
   {
     "id": "V3AyCc2Z4co",
     "title": "Gödel's Theorem Says Intelligence ≠ Power? AI Doom Debate with Alexander Campbell",
-    "date": "2025-03-21"
+    "date": "2025-03-21",
+    "duration_sec": 3009,
+    "type": "episode"
   },
   {
     "id": "AY4jD26RntE",
     "title": "Alignment is EASY and Roko's Basilisk is GOOD?! AI Doom Debate with Roko Mijic",
-    "date": "2025-03-17"
+    "date": "2025-03-17",
+    "duration_sec": 7151,
+    "type": "episode"
   },
   {
     "id": "xwvijjZxpwI",
     "title": "Gödel's Theorem Proves AI Lacks Consciousness?! Liron Reacts to Sir Roger Penrose",
-    "date": "2025-03-10"
+    "date": "2025-03-10",
+    "duration_sec": 5498,
+    "type": "episode"
   },
   {
     "id": "ml1JdiELQ30",
     "title": "We Found AI's Preferences — Bombshell New Safety Research — I Explain It Better Than David Shapiro",
-    "date": "2025-02-21"
+    "date": "2025-02-21",
+    "duration_sec": 6506,
+    "type": "episode"
   },
   {
     "id": "72LnKW_jae8",
     "title": "Does AI Competition = AI Alignment? Debate with Gil Mark",
-    "date": "2025-02-10"
+    "date": "2025-02-10",
+    "duration_sec": 4626,
+    "type": "episode"
   },
   {
     "id": "3IAOTYDvQy4",
     "title": "Toy Model of the AI Control Problem",
-    "date": "2025-02-06"
+    "date": "2025-02-06",
+    "duration_sec": 1538,
+    "type": "episode"
   },
   {
     "id": "_akB3NTy62A",
     "title": "Superintelligent AI vs. Real-World Engineering | Liron Reacts to Bryan Cantrill",
-    "date": "2025-01-31"
+    "date": "2025-01-31",
+    "duration_sec": 3933,
+    "type": "episode"
   },
   {
     "id": "y2_DRff-fpk",
     "title": "DeepSeek, Brain+AI Merging, Jailbreaking, Fearmongering, Consciousness, Utilitarianism — Live Q&A",
-    "date": "2025-01-27"
+    "date": "2025-01-27",
+    "duration_sec": 4998,
+    "type": "episode"
   },
   {
     "id": "EGtWrPZBrtw",
     "title": "Mark Zuckerberg, a16z, Yann LeCun, Eliezer Yudkowsky, Roon, Emmett Shear & More | Twitter Beefs #3",
-    "date": "2025-01-24"
+    "date": "2025-01-24",
+    "duration_sec": 7620,
+    "type": "episode"
   },
   {
     "id": "xyLHb-r0KKA",
     "title": "Effective Altruism: Amazing or Terrible? EA Debate with Jonas Sota",
-    "date": "2025-01-17"
+    "date": "2025-01-17",
+    "duration_sec": 3972,
+    "type": "episode"
   },
   {
     "id": "Cc7vN5ZKFIo",
     "title": "God vs. AI Doom: Debate with Bentham's Bulldog",
-    "date": "2025-01-15"
+    "date": "2025-01-15",
+    "duration_sec": 12047,
+    "type": "episode"
   },
   {
     "id": "GdthPZwU1Co",
     "title": "Debate with a former OpenAI Research Team Lead — Prof. Kenneth Stanley",
-    "date": "2025-01-06"
+    "date": "2025-01-06",
+    "duration_sec": 9430,
+    "type": "episode"
   },
   {
     "id": "0n6rF48PaJc",
     "title": "OpenAI o3 and Claude Alignment Faking — How doomed are we?",
-    "date": "2024-12-30"
+    "date": "2024-12-30",
+    "duration_sec": 3810,
+    "type": "episode"
   },
   {
     "id": "_sksNkjT-wA",
     "title": "AI Will Kill Us All — Liron Shapira on The Flares",
-    "date": "2024-12-27"
+    "date": "2024-12-27",
+    "duration_sec": 5017,
+    "type": "episode"
   },
   {
     "id": "GfgKQpevnUE",
     "title": "Roon vs. Liron: AI Doom Debate",
-    "date": "2024-12-18"
+    "date": "2024-12-18",
+    "duration_sec": 6287,
+    "type": "episode"
   },
   {
     "id": "xsGqWeqKjEg",
     "title": "Scott Aaronson Makes Me Think OpenAI's “Safety” Is Fake, Clueless, Reckless and Insane",
-    "date": "2024-12-11"
+    "date": "2024-12-11",
+    "duration_sec": 6779,
+    "type": "episode"
   },
   {
     "id": "wXGiV6tVtN0",
     "title": "Can LLMs Reason? Liron Reacts to Subbarao Kambhampati on Machine Learning Street Talk",
-    "date": "2024-11-28"
+    "date": "2024-11-28",
+    "duration_sec": 10774,
+    "type": "episode"
   },
   {
     "id": "Hes10uWGP7Y",
     "title": "This Yudkowskian Has A 99.999% P(Doom)",
-    "date": "2024-11-27"
+    "date": "2024-11-27",
+    "duration_sec": 3851,
+    "type": "episode"
   },
   {
     "id": "1u07Q7WUVWo",
     "title": "Cosmology, AI Doom, and the Future of Humanity with Fraser Cain",
-    "date": "2024-11-21"
+    "date": "2024-11-21",
+    "duration_sec": 7066,
+    "type": "episode"
   },
   {
     "id": "mUpfD9ZoNSM",
     "title": "AI Doom Debate: Vaden Masrani & Ben Chugg vs. Liron Shapira",
-    "date": "2024-11-19"
+    "date": "2024-11-19",
+    "duration_sec": 8483,
+    "type": "episode"
   },
   {
     "id": "opIvVzJF8t0",
     "title": "Andrew Critch vs. Liron Shapira: Will AI Extinction Be Fast Or Slow?",
-    "date": "2024-11-16"
+    "date": "2024-11-16",
+    "duration_sec": 9442,
+    "type": "episode"
   },
   {
     "id": "G6lGA7yPaV8",
     "title": "AI Twitter Beefs #2: Yann LeCun, David Deutsch, Tyler Cowen vs. Eliezer Yudkowsky, Geoffrey Hinton",
-    "date": "2024-11-13"
+    "date": "2024-11-13",
+    "duration_sec": 4008,
+    "type": "episode"
   },
   {
     "id": "zKz-t_l5yHg",
     "title": "Is P(Doom) Meaningful? Epistemology Debate with Vaden Masrani and Ben Chugg",
-    "date": "2024-11-08"
+    "date": "2024-11-08",
+    "duration_sec": 10259,
+    "type": "episode"
   },
   {
     "id": "EtUE4aHRgcE",
     "title": "15-Minute Intro to AI Doom",
-    "date": "2024-11-04"
+    "date": "2024-11-04",
+    "duration_sec": 953,
+    "type": "episode"
   },
   {
     "id": "2fg8an1pEaA",
     "title": "Lee Cronin vs. Liron Shapira: AI Doom Debate and Assembly Theory Questions",
-    "date": "2024-10-30"
+    "date": "2024-10-30",
+    "duration_sec": 5518,
+    "type": "episode"
   },
   {
     "id": "ueB9iRQsvQ8",
     "title": "Ben Horowitz says nuclear proliferation is GOOD? I disagree.",
-    "date": "2024-10-25"
+    "date": "2024-10-25",
+    "duration_sec": 1735,
+    "type": "episode"
   },
   {
     "id": "lyYIK_ATDm4",
     "title": "“AI Snake Oil” Prof. Arvind Narayanan Can't See AGI Coming | Liron Reacts",
-    "date": "2024-10-13"
+    "date": "2024-10-13",
+    "duration_sec": 4362,
+    "type": "episode"
   },
   {
     "id": "4v-Qh3JQ4Jc",
     "title": "Dr. Keith Duggar (Machine Learning Street Talk) vs. Liron Shapira — AI Doom Debate",
-    "date": "2024-10-08"
+    "date": "2024-10-08",
+    "duration_sec": 7892,
+    "type": "episode"
   },
   {
     "id": "2ql1iq520Kk",
     "title": "Getting ARRESTED for barricading OpenAI's office to Stop AI — Sam Kirchner and Remmelt Ellen",
-    "date": "2024-10-04"
+    "date": "2024-10-04",
+    "duration_sec": 2738,
+    "type": "episode"
   },
   {
     "id": "F9ytuPTBeBI",
     "title": "Q&A #1 Part 2: Stock Picking, Creativity, Types of Doomers, Favorite Books",
-    "date": "2024-10-02"
+    "date": "2024-10-02",
+    "duration_sec": 4183,
+    "type": "episode"
   },
   {
     "id": "BXg_HEAEf8s",
     "title": "Q&A #1 Part 1: College, Asperger's, Elon Musk, Double Crux, Liron's IQ",
-    "date": "2024-10-01"
+    "date": "2024-10-01",
+    "duration_sec": 3696,
+    "type": "episode"
   },
   {
     "id": "ueam4fq8k8I",
     "title": "Arguing \"By Definition\" | Rationality 101",
-    "date": "2024-09-29"
+    "date": "2024-09-29",
+    "duration_sec": 698,
+    "type": "clip"
   },
   {
     "id": "Ppx8_eZ5yt8",
     "title": "Doom Tiffs #1: Amjad Masad, Eliezer Yudkowsky, Roon, Lee Cronin, Naval Ravikant, Martin Casado",
-    "date": "2024-09-25"
+    "date": "2024-09-25",
+    "duration_sec": 4484,
+    "type": "episode"
   },
   {
     "id": "tf251Ig1Pas",
     "title": "Rationality 101: The Bottom Line",
-    "date": "2024-09-21"
+    "date": "2024-09-21",
+    "duration_sec": 244,
+    "type": "clip"
   },
   {
     "id": "59PTmetkPCY",
     "title": "Can GPT o1 Reason? | Liron Reacts to Tim Scarfe & Keith Duggar",
-    "date": "2024-09-18"
+    "date": "2024-09-18",
+    "duration_sec": 7615,
+    "type": "episode"
   },
   {
     "id": "rqiunloHu0o",
     "title": "Yuval Noah Harari's AI Warnings Don't Go Far Enough | Liron Reacts",
-    "date": "2024-09-11"
+    "date": "2024-09-11",
+    "duration_sec": 3973,
+    "type": "episode"
   },
   {
     "id": "a3Z3Sc4Hrdg",
     "title": "AI Doom Debate with Roman Yampolskiy: 50% vs. 99.999% P(Doom) — For Humanity Crosspost",
-    "date": "2024-09-06"
+    "date": "2024-09-06",
+    "duration_sec": 5466,
+    "type": "episode"
   },
   {
     "id": "GbHTLfTrjAs",
     "title": "Jobst Landgrebe Doesn't Believe In AGI | Liron Reacts",
-    "date": "2024-09-04"
+    "date": "2024-09-04",
+    "duration_sec": 5306,
+    "type": "episode"
   },
   {
     "id": "lehJlitQvZE",
     "title": "Arvind Narayanan Makes AI Sound Normal | Liron Reacts",
-    "date": "2024-08-29"
+    "date": "2024-08-29",
+    "duration_sec": 4299,
+    "type": "episode"
   },
   {
     "id": "xge8PXFQKEE",
     "title": "Bret Weinstein Bungles It On AI Extinction | Liron Reacts",
-    "date": "2024-08-27"
+    "date": "2024-08-27",
+    "duration_sec": 3691,
+    "type": "episode"
   },
   {
     "id": "xUP3GywD0yM",
     "title": "SB 1047 AI Regulation Debate: Holly Elmore vs. Greg Tanaka",
-    "date": "2024-08-26"
+    "date": "2024-08-26",
+    "duration_sec": 3361,
+    "type": "episode"
   },
   {
     "id": "nYQsL3dYqds",
     "title": "David Shapiro Part II: Unaligned Superintelligence Is Totally Fine?",
-    "date": "2024-08-22"
+    "date": "2024-08-22",
+    "duration_sec": 4076,
+    "type": "episode"
   },
   {
     "id": "hlvAPAkwq34",
     "title": "Maciej Ceglowski (Pinboard) Rejects AI Doomerism | Liron Reacts",
-    "date": "2024-08-19"
+    "date": "2024-08-19",
+    "duration_sec": 5569,
+    "type": "episode"
   },
   {
     "id": "58T1Ig56EHU",
     "title": "David Shapiro Doesn't Get PauseAI | Liron Reacts",
-    "date": "2024-08-16"
+    "date": "2024-08-16",
+    "duration_sec": 3441,
+    "type": "episode"
   },
   {
     "id": "A13qgzIU9JA",
     "title": "David Brooks's Non-Doomer Non-Argument in the NY Times | Liron Reacts",
-    "date": "2024-08-15"
+    "date": "2024-08-15",
+    "duration_sec": 2920,
+    "type": "episode"
   },
   {
     "id": "SBm19zCk9HY",
     "title": "Richard Sutton Dismisses AI Extinction Fears with Simplistic Arguments | Liron Reacts",
-    "date": "2024-08-13"
+    "date": "2024-08-13",
+    "duration_sec": 5172,
+    "type": "episode"
   },
   {
     "id": "QGYwCv1jwx8",
     "title": "AI Doom Debate: “Cards Against Humanity” Co-Creator David Pinsof",
-    "date": "2024-08-08"
+    "date": "2024-08-08",
+    "duration_sec": 6036,
+    "type": "episode"
   },
   {
     "id": "vV6JKQ6p918",
     "title": "P(Doom) Estimates Shouldn't Inform Policy?? Liron Reacts to Sayash Kapoor",
-    "date": "2024-08-05"
+    "date": "2024-08-05",
+    "duration_sec": 3121,
+    "type": "episode"
   },
   {
     "id": "wwnMVGCAeoI",
     "title": "Liron Reacts to Martin Casado's AI Claims",
-    "date": "2024-07-31"
+    "date": "2024-07-31",
+    "duration_sec": 9433,
+    "type": "episode"
   },
   {
     "id": "4YWAZEcYeMQ",
     "title": "AI Doom Debate: Tilek Mamutov vs. Liron Shapira",
-    "date": "2024-07-26"
+    "date": "2024-07-26",
+    "duration_sec": 6279,
+    "type": "episode"
   },
   {
     "id": "RpSsuHyi4pg",
     "title": "Rationality 101: Mysterious Answers to Mysterious Questions",
-    "date": "2024-07-23"
+    "date": "2024-07-23",
+    "duration_sec": 551,
+    "type": "clip"
   },
   {
     "id": "Hp-7gdCyU60",
     "title": "Liron is Anti-AI on Jubilee's \"Middle Ground\"",
-    "date": "2024-07-20"
+    "date": "2024-07-20",
+    "duration_sec": 240,
+    "type": "clip"
   },
   {
     "id": "VYB037dXf4M",
     "title": "Liron Reacts to Mike Israetel's \"Solving the AI Alignment Problem\"",
-    "date": "2024-07-18"
+    "date": "2024-07-18",
+    "duration_sec": 5554,
+    "type": "episode"
   },
   {
     "id": "_i4Liqj4G0g",
     "title": "Optimization and the Intelligence Explosion",
-    "date": "2024-07-16"
+    "date": "2024-07-16",
+    "duration_sec": 840,
+    "type": "clip"
   },
   {
     "id": "9iWiA5i1Uy8",
     "title": "Is our brain's superpower just \"culture\"?",
-    "date": "2024-07-14"
+    "date": "2024-07-14",
+    "duration_sec": 272,
+    "type": "clip"
   },
   {
     "id": "i0DxeBhjzlY",
     "title": "Robin Hanson AI Doom Debate Highlights and Post-Debate Analysis",
-    "date": "2024-07-12"
+    "date": "2024-07-12",
+    "duration_sec": 4262,
+    "type": "episode"
   },
   {
     "id": "dTQb6N3_zu8",
     "title": "Robin Hanson vs. Liron Shapira: Is Near-Term Extinction From AGI Plausible?",
-    "date": "2024-07-08"
+    "date": "2024-07-08",
+    "duration_sec": 7716,
+    "type": "episode"
   },
   {
     "id": "uWL4DPaX8fE",
     "title": "Are you ready for this?",
-    "date": "2024-07-07"
+    "date": "2024-07-07",
+    "duration_sec": 59,
+    "type": "short"
   },
   {
     "id": "xo5d_pCDmmo",
     "title": "Robin Hanson says AGI might be 100+ years away",
-    "date": "2024-07-07"
+    "date": "2024-07-07",
+    "duration_sec": 124,
+    "type": "short"
   },
   {
     "id": "darVPzEhh-I",
     "title": "Preparing for my AI Doom Debate with Robin Hanson",
-    "date": "2024-07-05"
+    "date": "2024-07-05",
+    "duration_sec": 2942,
+    "type": "episode"
   },
   {
     "id": "iNnoJnuOXFA",
     "title": "Robin Hanson debate prep: Liron argues *against* AI doom!",
-    "date": "2024-06-30"
+    "date": "2024-06-30",
+    "duration_sec": 5563,
+    "type": "episode"
   },
   {
     "id": "08vZT2LLvtA",
     "title": "AI Doom Q&A with Tony Warner and Liron Shapira",
-    "date": "2024-06-26"
+    "date": "2024-06-26",
+    "duration_sec": 3921,
+    "type": "episode"
   },
   {
     "id": "FIlUViK5zSY",
     "title": "AI Doom Debate: Will AGI’s analysis paralysis save humanity?",
-    "date": "2024-06-22"
+    "date": "2024-06-22",
+    "duration_sec": 3402,
+    "type": "episode"
   },
   {
     "id": "-tIq6kbrF-4",
     "title": "Steven Pinker doesn’t get the AI doom argument | Liron Reacts",
-    "date": "2024-06-21"
+    "date": "2024-06-21",
+    "duration_sec": 1706,
+    "type": "episode"
   },
   {
     "id": "cj5rgWbRyMI",
     "title": "AI Doom Debate: What's a plausible alignment scenario?",
-    "date": "2024-06-20"
+    "date": "2024-06-20",
+    "duration_sec": 1576,
+    "type": "episode"
   },
   {
     "id": "loaT9eAjLv0",
     "title": "Can Humans Judge AI's Arguments",
-    "date": "2024-06-20"
+    "date": "2024-06-20",
+    "duration_sec": 2009,
+    "type": "episode"
   },
   {
     "id": "Ahq-EMSrskI",
     "title": "Q&A: How scary is a superintelligent football coach?",
-    "date": "2024-06-20"
+    "date": "2024-06-20",
+    "duration_sec": 714,
+    "type": "clip"
   },
   {
     "id": "XnoaRtyYOqY",
     "title": "AI Doom Debate: George Hotz vs. Liron Shapira",
-    "date": "2024-06-20"
+    "date": "2024-06-20",
+    "duration_sec": 4631,
+    "type": "episode"
   },
   {
     "id": "5wqVR9NjiII",
     "title": "Should we gamble on AGI before all 8 billion of us die?",
-    "date": "2024-06-20"
+    "date": "2024-06-20",
+    "duration_sec": 3389,
+    "type": "episode"
   },
   {
     "id": "ObSPSGRw5LQ",
     "title": "AI Doom Debate: Liron Shapira vs. Kelvin Santos",
-    "date": "2024-06-20"
+    "date": "2024-06-20",
+    "duration_sec": 2340,
+    "type": "episode"
   },
   {
     "id": "Pjpgx-n78X8",
     "title": "What this \"Doom Debates\" podcast is about",
-    "date": "2024-06-20"
+    "date": "2024-06-20",
+    "duration_sec": 2376,
+    "type": "episode"
   },
   {
     "id": "3Sn0stHiNh4",
     "title": "Why Ain't You Rich? - Nate Soares",
-    "date": "2016-11-03"
+    "date": "2016-11-03",
+    "duration_sec": 2619,
+    "type": "episode"
   }
 ]
