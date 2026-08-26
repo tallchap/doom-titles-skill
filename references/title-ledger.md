@@ -7,6 +7,8 @@ Resolution happens only in Step 0 on later invocations: once the episode appears
 the refreshed corpus, fill in Video ID + Final published title, write the lesson,
 flip Status to `resolved`, and (if the pick differed) add a case study to
 `references/case-studies.md`.
+In-session feedback (thumbs, diagnoses, lesson rulings) lives in
+`references/feedback-log.md`, keyed by the same episode identifier as each row here.
 
 | Logged | Episode / transcript | Publish pick (candidate #1) | Other candidates | Video ID | Final published title | Lesson | Status |
 |---|---|---|---|---|---|---|---|
