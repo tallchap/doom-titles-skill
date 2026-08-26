@@ -2,7 +2,7 @@
 
 A Claude Code skill that generates **5 YouTube episode title candidates** for the Doom Debates podcast — pattern-matched against every published episode title and written in Liron Shapira's voice.
 
-Self-learning: it refreshes the title corpus from YouTube on every run, logs its candidates to a ledger, and when the human publishes a different title it resolves the row, writes the lesson, and promotes genuinely new lessons into its own rules.
+Self-learning, two loops: (1) it refreshes the title corpus from YouTube on every run, logs its candidates to a ledger, and when the human publishes a different title it resolves the row, writes the lesson, and promotes genuinely new lessons into its own rules; (2) after every run's first output it asks for a thumbs up/down or improvement note, diagnoses why a miss happened, proposes a root-cause lesson for human review (approve / forget / rewrite), and applies approved rules directly to itself.
 
 ## What's in this repo
 
@@ -12,6 +12,7 @@ Self-learning: it refreshes the title corpus from YouTube on every run, logs its
 | `scripts/refresh_titles.py` | Pulls the newest Doom Debates uploads into the corpus (dedupes by video ID, catches retitles, tags each entry `episode`/`clip`/`short` by duration) |
 | `references/title-ledger.md` | One row per episode: what the skill generated vs. what actually got published, plus the lesson |
 | `references/case-studies.md` | Annotated misses — the ground truth the Selection Pass rules are built from |
+| `references/feedback-log.md` | One entry per run: Ori's thumbs/notes verdict on the first output, the diagnosis, the proposed lesson, his ruling on it, and which rule got applied |
 | `doom_debates_titles.json` | Pattern library: 326 published Doom Debates titles (video ID, title, date, type), through 2026-08-26 |
 
 ## Install as a Claude Code skill
@@ -32,3 +33,4 @@ Invoke with prompts like *"title this episode"*, *"doom titles for [description]
 3. **Step 1.5 — classify the episode type.** Guest debate, news livestream, special report, contrarian insider, meta/community, street interviews, archival crosspost — each has a distinct published-title shape.
 4. **Generate + Selection Pass.** Liron's voice rules: confident, combative, no hashtags/emoji/hedging. Exactly 5 candidates from different angles, each with a 1-line rationale, run through the Selection Pass and NEVER list.
 5. **Step 4.5 — log to the ledger** so the next run can learn from what got published.
+6. **Step 4.7 — feedback popup + lesson loop.** After every run's first output, one popup: 👍 / 👎 / free-text note. On negative feedback the skill diagnoses *why* the output came out that way, proposes one root-cause lesson (written as a diff when it amends an existing rule), and a second popup lets the human approve, forget, or rewrite it — approved rules are applied directly to SKILL.md, then a revised 5-set is generated. Everything is audited in `references/feedback-log.md`. Title-*picker* popups remain banned; non-interactive runs skip the popups silently.

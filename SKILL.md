@@ -1,11 +1,13 @@
 ---
 name: doom-titles
-version: 1.2.0
+version: 1.3.0
 description: |
   Generate 5 YouTube episode title candidates for the Doom Debates podcast.
   Reads existing episode titles for pattern matching and applies Liron's voice.
   Self-learning: refreshes the title corpus from YouTube on every run, logs its
-  candidates to a ledger, and distills lessons when published titles differ.
+  candidates to a ledger, collects a thumbs/notes verdict after the first
+  generation with a human-reviewed lesson loop, and distills lessons when
+  published titles differ.
   Use when asked to "title this episode", "doom titles for", "generate titles",
   "YouTube title for Doom Debates", or "name this episode".
 ---
@@ -57,7 +59,9 @@ have since been published, and learns from what the human actually chose.
    published title, lessons). If the lesson is genuinely new — not already covered
    by a Selection Pass checklist item or a NEVER rule — also add or strengthen the
    matching rule in Step 3.5 or the NEVER list. The skill is expected to edit its
-   own files here; do it without asking.
+   own files here; do it without asking. When resolving a row, also check
+   `references/feedback-log.md` for same-episode entries — a note that anticipated
+   the published title's lesson is corroborating evidence; say so in the case study.
 5. Do NOT narrate this bookkeeping in your output beyond one short line when
    something was learned (e.g. "Resolved 1 pending title; lesson added.").
 
@@ -76,6 +80,11 @@ Also read `references/case-studies.md` (in this skill's directory): six real epi
 where the first candidate differed from the human-published title, each annotated with
 the lesson. These are ground truth for how Liron/Ori actually select — the Selection
 Pass in Step 3.5 is built from them.
+
+Also read `references/feedback-log.md`: Ori's in-session verdicts on past first
+outputs, with the diagnoses and lesson rulings. Approved rules are already in
+Steps 2/3.5 — but the raw notes and `up` confirmations are live calibration
+signal for what Ori wants. Use silently.
 
 Before generating, analyze the titles and identify:
 - How guests are named (e.g., "ft." vs "with" vs just the name)
@@ -261,19 +270,67 @@ for this episode, don't log again.
 
 ---
 
-## Step 4.6: NO checkpoint picker — ever
+## Step 4.6: NO title pickers — scoped popup policy
 
-Do NOT end the run with an AskUserQuestion popup. Do NOT ask "which one do you want?"
-Output the 5 titles as plain markdown and stop. This skill delivers information; the
-human picks on their own time.
+Never end a run with a picker popup. Do NOT ask "which one do you want?" Output
+the titles as plain markdown; the human picks on his own time.
 
-This applies to the initial ranked output AND to every revision round. If Ori asks a
-follow-up, supplies his own seed title, or requests variants — show full rewritten
-drafts inline, all options visible at once, zero popups, zero checkpoints.
+The ONLY sanctioned popups are Step 4.7's two — the feedback question and its
+lesson vote. They ask how the set landed and whether a rule is right, never which
+title to use.
+
+The picker ban applies to the initial ranked output AND every revision round. If
+Ori asks a follow-up, supplies his own seed title, or requests variants — show
+full rewritten drafts inline, all options visible at once, zero pickers, zero
+checkpoints.
 
 If Ori states a pick or supplies his own title in-session, append `· [session pick:
 <title>]` to that episode's "Other candidates" cell in the ledger. Never touch the
 Publish pick column — it preserves first instinct.
+
+---
+
+## Step 4.7: Feedback popup + lesson loop — first output of every run
+
+Runs immediately AFTER the Step 4.5 ledger append — first instinct is on disk
+before feedback can change anything. Fires once per run, on this invocation's
+FIRST candidate output; a fresh session on a previously-titled episode asks again
+(the ledger append stays once-per-episode; this doesn't). Skip only on revision
+rounds within the same session.
+
+1. Ask ONE AskUserQuestion: `How's this title set?` — options `👍 On target` /
+   `👎 Off the mark`. Free text typed instead of an option is the improvement
+   note; capture it verbatim.
+2. On `👍`: append an entry to `references/feedback-log.md` (verdict `up`) using
+   its template. Done.
+3. On `👎` or a note: write a short **diagnosis** — why the first output came out
+   the way it did (which Step 1.5 shape, Step 2 rule, or Step 3.5 item steered
+   it, or which rule is missing) and how it can be improved. Then derive ONE
+   proposed lesson targeting the ROOT CAUSE of the mistake — why it occurred,
+   never the surface instance (a wrong guest name proposes a verify-before-output
+   rule, not a rule about that name). State it in the imperative style of the
+   Step 3.5 / NEVER items. If it touches an existing rule, write it as a DIFF:
+   the amended rule text plus one line stating what changes vs the current
+   wording — never propose a contradictory rule alongside an existing one.
+4. Show the diagnosis + proposed lesson (or diff) inline, then ask a second
+   AskUserQuestion: `Apply this lesson?` — options `👍 Approve — apply this rule`
+   / `👎 Forget it`. Free text = Ori's rewritten lesson; it replaces the proposal
+   verbatim.
+5. Approved or rewritten → apply the rule now: add or amend the matching Step 3.5
+   checklist item or NEVER entry in this skill's SKILL.md, without asking (same
+   mechanism as Step 0 item 4). Forgotten → no rule change.
+6. Append the full entry to `references/feedback-log.md`: verdict, note verbatim,
+   publish pick at feedback time, diagnosis, proposed lesson, lesson verdict,
+   rule applied, revised in-session.
+7. Output a revised 5-set inline applying the note/lesson — same Step 4 format,
+   no further popups (Step 4.6), no new ledger row, no second feedback entry.
+8. If AskUserQuestion is unavailable, errors, or Ori cancels/dismisses the popup:
+   skip the rest of this step silently and log a `skipped` entry (no entry at all
+   when the tool doesn't exist — nothing was offered). Feedback must never block
+   or delay title delivery. Never simulate a popup in text.
+
+This step never touches the ledger. Undoing a bad rule is just another diff
+through the same flow — the log's Rule applied field makes every rule traceable.
 
 ## Examples That Worked
 
