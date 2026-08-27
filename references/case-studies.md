@@ -1,10 +1,10 @@
 # Case studies: first candidate vs. published title
 
-Six real episodes (July–Aug 2026) where the skill's first candidate differed from the
-human-published title. Read these before generating — the goal is for candidate #1
+Eleven real episodes (July–Aug 2026) where the skill's first candidate differed from
+the human-published title. Read these before generating — the goal is for candidate #1
 (the publish pick) to land on the title Liron/Ori would actually publish.
 
-Transcripts + ground truth for all six live in
+Transcripts + ground truth for the early episodes live in
 `~/Desktop/ClaudeCode/transcripts/doom-titles-episodes/` (see its README.md).
 
 ---
@@ -153,3 +153,20 @@ Lessons:
   the "(2023)" parenthetical) — an external show with no recognition value earns no
   title space. Extends case #3's drop-small-orgs rule to podcasts/hosts.
 - No caps word, no quote marks — a plain first-person sentence carries it.
+
+## 11. Aella & the Please Don't Kill Us house (aPsjMCG7Ic8)
+
+- **First candidate:** `Aella's AI Doom Influencer House Just Got 100 Million Views — Please Don't Kill Us`
+- **Published:** `They're Making AI Doom Cool! Ft. AELLA, Brangus, Avalon Warren, Avisha & Josh of PlzDontKillUs`
+
+Lessons (rules reviewed and approved by Ori, 2026-08-26):
+- **Group/scene episodes don't anchor on the one famous guest.** The published
+  title makes a claim about what the group is doing and credits the guests as a
+  roster after "Ft." — every name is a search hook for that guest's own audience.
+  Marquee-in-caps (AELLA) and the group's own brand spelling (PlzDontKillUs)
+  worked here but are options, not requirements.
+- **Call a person by the name their audience actually knows.** "Brangus" is
+  recognizable to his followers; "Ronny Fernandez" is not. Use the handle only
+  when it is clearly better known than the real name.
+- A proposed rule about audience-size numbers (views/followers not being hooks)
+  was reviewed and REJECTED — no rule derived from the stat-vs-thesis difference.

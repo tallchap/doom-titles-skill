@@ -1,6 +1,6 @@
 ---
 name: doom-titles
-version: 1.3.0
+version: 1.3.1
 description: |
   Generate 5 YouTube episode title candidates for the Doom Debates podcast.
   Reads existing episode titles for pattern matching and applies Liron's voice.
@@ -54,14 +54,20 @@ have since been published, and learns from what the human actually chose.
      pattern the human applied).
    - If they match (modulo trivial punctuation), write `publish pick matched —
      pattern confirmed`.
-4. For each newly resolved row where the pick differed, append a numbered case
-   study to `references/case-studies.md` in its existing format (first candidate,
-   published title, lessons). If the lesson is genuinely new — not already covered
-   by a Selection Pass checklist item or a NEVER rule — also add or strengthen the
-   matching rule in Step 3.5 or the NEVER list. The skill is expected to edit its
-   own files here; do it without asking. When resolving a row, also check
-   `references/feedback-log.md` for same-episode entries — a note that anticipated
-   the published title's lesson is corroborating evidence; say so in the case study.
+4. For each newly resolved row where the pick differed, DRAFT a numbered case
+   study for `references/case-studies.md` (first candidate, published title,
+   lessons) and, when a lesson is genuinely new — not already covered by a
+   Selection Pass checklist item or a NEVER rule — draft the matching rule change
+   for Step 3.5 or the NEVER list. Do NOT write either yet: show the drafts and
+   ask Ori for approval with an AskUserQuestion popup (approve / forget / free
+   text = his rewording, applied verbatim) — the same gate as the Step 4.7 lesson
+   vote. Apply only what he approves. Ledger facts (Video ID, Final published
+   title, Lesson line, Status) resolve automatically without asking. If the popup
+   is unavailable (non-interactive session), leave the drafts unwritten — the
+   ledger lesson preserves the signal and a later interactive run can propose
+   them. When resolving a row, also check `references/feedback-log.md` for
+   same-episode entries — a note that anticipated the published title's lesson is
+   corroborating evidence; cite it in the case study draft.
 5. Do NOT narrate this bookkeeping in your output beyond one short line when
    something was learned (e.g. "Resolved 1 pending title; lesson added.").
 
@@ -118,6 +124,7 @@ if you deviate, the rationale should say why.
 | **Meta / community episode** | Format label + parallel triplet ending in a viewer appeal (`…and Why We Need YOU`) |
 | **Street interviews / vox pop** | Participial channel verb: `Debating [group] About [stakes]` — usually beats first-person `I Asked…` |
 | **Live event** | Content hook first, event label second: `[Hook question]? Live Debate at [Event]` |
+| **Group / scene feature (3+ guests)** | Do not anchor every candidate on the single most famous guest. At least one of the 5 candidates makes its headline a claim about what the group is doing and credits the guests as a roster after `Ft.` (e.g. `They're Making AI Doom Cool! Ft. AELLA, Brangus, Avalon Warren, Avisha & Josh of PlzDontKillUs`). Marquee name in capitals and the group's own brand spelling are options that worked once, not requirements. A single-guest hook can still win if it is stronger. |
 | **Archival crosspost / retrospective** | First-person re-evaluation of the old claim from today's vantage: `What I Said About [X] in [year] Is Now [today's read]` or `…— Did It Age Well?`. Understated dread beats "Predicted It!" triumph; drop external host-show branding (no recognition value) |
 
 ---
@@ -205,6 +212,15 @@ Liron/Ori would actually publish.
    the guest held the role** (Michael Vassar led the *Singularity Institute*, not
    MIRI). A strong enough role descriptor can *replace* the `— [Name]` guest tag
    entirely when the role has more recognition value than the name (case study #9).
+   Put the org name at the very front of the credential: `Singularity Institute
+   Former President`, never `Former Singularity Institute President`. The first
+   words of a title carry the most recognition weight, so the token viewers know
+   leads and qualifiers like "Former" follow (2026-08 retitle of the Vassar
+   episode). When choosing what to call a person, use the name their audience
+   actually knows and searches for: if someone is clearly better known by an
+   online handle than by their legal name, use the handle ("Brangus" is
+   recognizable to his followers, "Ronny Fernandez" is not); if the real name is
+   at least as recognizable, use the real name.
 4. **Concrete number** — if the episode contains a hard number (a P(Doom), a
    percentage, a dollar figure), it beats any quote-pull. Use it.
 5. **No overclaim** — every claim in the title is one the episode fully defends.
@@ -275,9 +291,9 @@ for this episode, don't log again.
 Never end a run with a picker popup. Do NOT ask "which one do you want?" Output
 the titles as plain markdown; the human picks on his own time.
 
-The ONLY sanctioned popups are Step 4.7's two — the feedback question and its
-lesson vote. They ask how the set landed and whether a rule is right, never which
-title to use.
+The ONLY sanctioned popups are the feedback and rule-approval questions —
+Step 4.7's feedback + lesson-vote popups, and Step 0's rule-proposal popup. They
+ask how the set landed and whether a rule is right, never which title to use.
 
 The picker ban applies to the initial ranked output AND every revision round. If
 Ori asks a follow-up, supplies his own seed title, or requests variants — show
