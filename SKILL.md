@@ -118,7 +118,6 @@ if you deviate, the rationale should say why.
 | **Meta / community episode** | Format label + parallel triplet ending in a viewer appeal (`…and Why We Need YOU`) |
 | **Street interviews / vox pop** | Participial channel verb: `Debating [group] About [stakes]` — usually beats first-person `I Asked…` |
 | **Live event** | Content hook first, event label second: `[Hook question]? Live Debate at [Event]` |
-| **Multi-guest scene feature / group profile** | Cultural-thesis hook + full roster credit: `[Zeitgeist claim about the group]! Ft. [MARQUEE], [Name], [Name] & [Name] of [Brand]` — every guest named, marquee name in CAPS, people named by the handle their audience knows, brand in its own stylization (e.g. `They're Making AI Doom Cool! Ft. AELLA, Brangus, … of PlzDontKillUs`) |
 | **Archival crosspost / retrospective** | First-person re-evaluation of the old claim from today's vantage: `What I Said About [X] in [year] Is Now [today's read]` or `…— Did It Age Well?`. Understated dread beats "Predicted It!" triumph; drop external host-show branding (no recognition value) |
 
 ---
@@ -206,13 +205,8 @@ Liron/Ori would actually publish.
    the guest held the role** (Michael Vassar led the *Singularity Institute*, not
    MIRI). A strong enough role descriptor can *replace* the `— [Name]` guest tag
    entirely when the role has more recognition value than the name (case study #9).
-   Lead with the recognition token: `Singularity Institute Former President`, not
-   `Former Singularity Institute President` (2026-08 retitle). Name people by the
-   handle their audience knows (`Brangus`, not Ronny Fernandez — case study #11).
 4. **Concrete number** — if the episode contains a hard number (a P(Doom), a
-   percentage, a dollar figure), it beats any quote-pull. Use it. Exception: on
-   multi-guest scene features, the cultural thesis about the group beat the stat
-   ("They're Making AI Doom Cool!" over 100M views — case study #11).
+   percentage, a dollar figure), it beats any quote-pull. Use it.
 5. **No overclaim** — every claim in the title is one the episode fully defends.
 6. **Caps news verb + "Just"** where there's news (`Just RESIGNED`, `Just ATTACKED`);
    cut narrative detail ("secretly", "for MONTHS", "while engineers slept").

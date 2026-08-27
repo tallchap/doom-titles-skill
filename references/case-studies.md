@@ -1,10 +1,10 @@
 # Case studies: first candidate vs. published title
 
-Eleven real episodes (July–Aug 2026) where the skill's first candidate differed from
-the human-published title. Read these before generating — the goal is for candidate #1
+Six real episodes (July–Aug 2026) where the skill's first candidate differed from the
+human-published title. Read these before generating — the goal is for candidate #1
 (the publish pick) to land on the title Liron/Ori would actually publish.
 
-Transcripts + ground truth for the early episodes live in
+Transcripts + ground truth for all six live in
 `~/Desktop/ClaudeCode/transcripts/doom-titles-episodes/` (see its README.md).
 
 ---
@@ -153,23 +153,3 @@ Lessons:
   the "(2023)" parenthetical) — an external show with no recognition value earns no
   title space. Extends case #3's drop-small-orgs rule to podcasts/hosts.
 - No caps word, no quote marks — a plain first-person sentence carries it.
-
-## 11. Aella & the Please Don't Kill Us house (aPsjMCG7Ic8)
-
-- **First candidate:** `Aella's AI Doom Influencer House Just Got 100 Million Views — Please Don't Kill Us`
-- **Published:** `They're Making AI Doom Cool! Ft. AELLA, Brangus, Avalon Warren, Avisha & Josh of PlzDontKillUs`
-
-Lessons:
-- **Multi-guest scene features credit the FULL roster.** Every guest gets named after
-  `Ft.` — not just the famous one. Each name is a search/recognition hook for that
-  guest's own audience.
-- **The cultural thesis beat the concrete number.** "They're Making AI Doom Cool!" —
-  a zeitgeist claim about the group — won over the 100-million-views stat. The
-  Step 3.5 concrete-number rule holds for debates/news; for scene features the
-  vibe-shift claim IS the story.
-- **Marquee name in CAPS** (`AELLA`) — the caps-emphasis slot can go to the famous
-  guest's name, not just a news verb.
-- **Name people by the handle their audience knows** — `Brangus`, not Ronny
-  Fernandez. Recognition beats formality.
-- **Use the project's own brand stylization** — `PlzDontKillUs`, exactly as the group
-  spells its handle, not the expanded "Please Don't Kill Us".
