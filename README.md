@@ -13,7 +13,7 @@ Self-learning, two loops: (1) it refreshes the title corpus from YouTube on ever
 | `references/title-ledger.md` | One row per episode: what the skill generated vs. what actually got published, plus the lesson |
 | `references/case-studies.md` | Annotated misses — the ground truth the Selection Pass rules are built from |
 | `references/feedback-log.md` | One entry per run: Ori's thumbs/notes verdict on the first output, the diagnosis, the proposed lesson, his ruling on it, and which rule got applied |
-| `doom_debates_titles.json` | Pattern library: 326 published Doom Debates titles (video ID, title, date, type), through 2026-08-26 |
+| `doom_debates_titles.json` | Pattern library: 327 published Doom Debates titles (video ID, title, date, type), through 2026-08-26 |
 
 ## Install as a Claude Code skill
 
